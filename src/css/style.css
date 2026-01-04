@@ -1,4 +1,4 @@
-/* variaves */
+/* ================= VARIÁVEIS ================= */
 :root {
   --primary-color: #ff4d6d;
   --secondary-color: #111;
@@ -6,7 +6,7 @@
   --text-color: #f0f0f0;
 }
 
-/* ================= RESET BASICO ================= */
+/* ================= RESET ================= */
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +16,6 @@
 
 /* ================= BODY ================= */
 body {
-  font-family: Arial, Helvetica, sans-serif;
   background-color: var(--background-color);
   color: var(--text-color);
   line-height: 1.6;
@@ -29,9 +28,9 @@ body {
   align-items: center;
   gap: 1rem;
   padding: 0.75rem 1rem;
-  background-color: #16161f; /* cor do primeiro CSS */
+  background-color: #16161f;
   border-bottom: 1px solid #2a2a3a;
-  position: sticky; /* efeito que você gostou */
+  position: sticky;
   top: 0;
   z-index: 10;
 }
@@ -149,54 +148,57 @@ body {
 }
 
 .sidebar-menu a:hover {
-  color: #ff4d6d;
+  color: var(--primary-color);
 }
 
-/* ================= CONTEUDO PRINCIPAL ================= */
-.content {
+/* ================= CONTEÚDO PRINCIPAL ================= */
+.main-content {
   max-width: 1200px;
   margin: 20px auto;
   padding: 0 20px;
 }
 
-/* Título da música */
-.music-header h1 {
-  font-size: 1.6rem;
-  margin-bottom: 0.3rem;
+/* HEADER DO CONTEÚDO (Título + Áudio) */
+.musica-header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
 }
 
-.music-header h2 {
+.musica-header h1 {
+  font-size: 1.6rem;
+}
+
+.musica-header h2 {
   font-size: 22px;
-  color: #ff4d6d;
+  color: var(--primary-color);
+}
+
+.audio-box audio {
+  width: 100%;
+  margin-top: 5px;
+  border-radius: 6px;
+  background-color: #16161f;
+  border: 1px solid #2a2a3a;
 }
 
 /* ================= MUSIC AREA ================= */
-.music-area {
+.musica-layout {
   display: flex;
   gap: 20px;
-  margin-top: 20px;
   flex-wrap: wrap;
 }
 
-/* LADO ESQUERDO */
-.music-left {
+/* COLUNA ESQUERDA: LETRA */
+.letra {
   flex: 1 1 500px;
   min-width: 300px;
-}
-
-.music-left audio {
-  width: 100%;
-  margin-bottom: 15px;
-}
-
-
-.letra {
   background-color: #16161f;
   padding: 1rem;
   border-radius: 6px;
   border: 1px solid #2a2a3a;
 }
-
 
 .letra h3 {
   font-size: 20px;
@@ -207,7 +209,7 @@ body {
   font-size: 16px;
   margin-top: 15px;
   margin-bottom: 5px;
-  color: #ff4d6d;
+  color: var(--primary-color);
 }
 
 .letra p {
@@ -215,41 +217,54 @@ body {
   line-height: 1.5;
 }
 
-/* LADO DIREITO */
-.music-right {
+/* COLUNA DIREITA: IMAGEM + DESCRIÇÃO */
+.lado-direito {
   flex: 1 1 300px;
   min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
-.music-image {
+/* IMAGEM / ANIMAÇÃO */
+.imagem-box {
   width: 100%;
   text-align: center;
-  margin-bottom: 15px;
   border: 1px solid #2a2a3a;
+  background-color: #16161f;
+  padding: 0.75rem;
+  border-radius: 6px;
 }
 
-.music-image img {
+.imagem-box img {
   width: 100%;
   border-radius: 10px;
   transition: opacity 0.5s ease;
 }
 
-/* DESCRIÇÃO CURTA */
-.description {
+.imagem-box figcaption {
+  font-size: 12px;
+  margin-top: 5px;
+  color: #f0f0f0;
+}
+
+/* DESCRIÇÃO */
+.descricao {
   background-color: #16161f;
   padding: 1rem;
   border-radius: 6px;
   border: 1px solid #2a2a3a;
 }
 
-.description h3 {
+.descricao h3 {
   font-size: 18px;
   margin-bottom: 10px;
 }
 
-.description p {
-  margin-bottom: 8px;
+.descricao p {
   font-size: 14px;
+  margin-bottom: 8px;
+  line-height: 1.5;
 }
 
 /* ================= FOOTER ================= */
@@ -273,12 +288,16 @@ body {
 
 /* ================= RESPONSIVO ================= */
 @media (max-width: 900px) {
-  .music-area {
+  .musica-layout {
     flex-direction: column;
   }
 
-  .music-left,
-  .music-right {
+  .letra,
+  .lado-direito {
     min-width: 100%;
+  }
+
+  .musica-header {
+    align-items: flex-start;
   }
 }
