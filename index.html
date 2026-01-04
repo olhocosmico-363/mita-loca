@@ -5,8 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Yandere Music Wiki</title>
-
-  <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="stylesheet" href="./src/css/reset.css">
 </head>
 
 <body>
@@ -14,9 +13,7 @@
   <!-- ================= HEADER ================= -->
   <header class="header">
     <div class="header-left">
-      <!-- botão que abre o menu lateral -->
       <button class="menu" aria-label="Abrir menu">☰</button>
-
       <a href="index.html" class="logo">
         <img src="./src/assets/images/logo.png" alt="Yandere Zone" />
       </a>
@@ -62,27 +59,123 @@
   <!-- ================= CONTEÚDO PRINCIPAL ================= -->
   <main class="content">
 
+    <!-- TÍTULO -->
     <header class="music-header">
       <h1>Música da IA</h1>
       <h2>Mita Loca</h2>
     </header>
 
-    <!-- ÁUDIO + VISUAL -->
+    <!-- ÁUDIO + LETRA (ESQUERDA) | ANIMAÇÃO + DESCRIÇÃO CURTA (DIREITA) -->
     <section class="music-area">
 
-      <!-- PLAYER + DESCRIÇÃO -->
-      <div class="music-info">
+      <!-- LADO ESQUERDO -->
+      <div class="music-left">
+        <!-- PLAYER -->
         <audio id="audio-player" controls>
-          <source src="/src/assets/audio/mita-loca.mp3" type="audio/mpeg" />
+          <source src="./src/assets/audio/mita-loca.mp3" type="audio/mpeg" />
           Seu navegador não suporta áudio.
         </audio>
 
-        <article class="description">
-          <h3>Descrição / Wiki</h3>
+        <!-- LETRA -->
+        <article class="letra">
+          <h3>Letra</h3>
 
+          <section>
+            <h4>[Verso 1]</h4>
+            <p>
+              Olha nos meus olhos, me conta as tuas loucuras<br>
+              Fala que eu nunca escapo, que você tá na altura<br>
+              Enquanto eu corro, você vem pra me pegar<br>
+              Mina, você tá falando que eu sou refém do seu despertar
+            </p>
+
+            <p>
+              Essa energia que me faz te gostar<br>
+              Mina, mina, mina… que eu gosto, ah<br>
+              Quanto mais você me caça, mais eu me escondo<br>
+              Menina psicótica que finge não pedir
+            </p>
+          </section>
+
+          <section>
+            <h4>[Pré-Refrão]</h4>
+            <p>
+              É assim que eu te imploro, só pra sentir<br>
+              Me observa à distância, tudo tá bagunçado<br>
+              Cada vez que eu me escondo<br>
+              Sinto o seu chamado
+            </p>
+          </section>
+
+          <section>
+            <h4>[Refrão]</h4>
+            <p>
+              Quanto mais você me caça, mais eu me escondo<br>
+              Menina psicótica que finge não pedir<br>
+              É assim que eu te imploro, ó, só pra sentir<br>
+              É assim que eu te imploro, ó, só pra sentir
+            </p>
+          </section>
+
+          <section>
+            <h4>[Verso 2]</h4>
+            <p>
+              Esse jogo é intenso, eu não vou negar<br>
+              É com muito tesão, sinto o seu olhar<br>
+              Tô quase perdido, mesmo assim me encontro<br>
+              Sei que é proibido, mas me atrai de novo
+            </p>
+
+            <p>
+              E eu gosto, ahhh<br>
+              Quanto mais você me caça, mais eu me escondo<br>
+              Menina psicótica que finge não pedir<br>
+              É assim que eu te imploro, só pra sentir
+            </p>
+          </section>
+
+          <section>
+            <h4>[Ponte]</h4>
+            <p>
+              Mina, me pegou na rede da paixão<br>
+              Tô flutuando, perdido em contramão<br>
+              Mas eu sei que eu vou mergulhar<br>
+              Acabando em você
+            </p>
+
+            <p>
+              Mina, eu ainda posso lidar<br>
+              Mina, mina, mina… que eu gosto, ah
+            </p>
+          </section>
+
+          <section>
+            <h4>[Refrão Final]</h4>
+            <p>
+              Quanto mais você me caça, mais eu me escondo<br>
+              Menina psicótica que finge não pedir<br>
+              É assim que eu te imploro, só pra sentir<br>
+              É assim que eu te imploro… só pra sentirrr
+            </p>
+          </section>
+        </article>
+      </div>
+
+      <!-- LADO DIREITO -->
+      <div class="music-right">
+        <!-- ANIMAÇÃO -->
+        <figure class="music-image">
+          <img id="mita-image" src="./src/assets/images/mita-1.png" alt="Mita frame" />
+          <figcaption>
+            <strong>Nota:</strong> arte do altor @JoyfuIIie.
+          </figcaption>
+        </figure>
+        <article class="description">
+          <!-- DESCRIÇÃO CURTA -->
+          <h3>Descrição / Wiki</h3>
           <p>
-            Música gerada por IA com clima obsessivo e caótico, marcada por repetições,
-            frases fragmentadas e sensação constante de perseguição emocional.
+            Música gerada por IA, com clima obsessivo e caótico, marcada por repetições,
+            frases fragmentadas e uma sensação constante de perseguição emocional.
             A letra transcrita apresenta distorções e trechos confusos, reforçando a
             ideia de uma mente instável presa em um ciclo de desejo e negação.
           </p>
@@ -100,20 +193,9 @@
             ela cria desconforto, insistência e uma sensação de aprisionamento —
             elementos comuns do arquétipo yandere e de músicas experimentais feitas por IA.
           </p>
-
-          <p class="note">
-            <strong>Nota:</strong> texto baseado em transcrição automática do áudio.
-            Pode conter erros, repetições e distorções, utilizadas aqui como parte
-            da identidade e do tom da obra.
-          </p>
         </article>
-      </div>
 
-      <!-- IMAGEM REATIVA -->
-      <figure class="music-image">
-        <img id="mita-image" src="./src/assets/images/mita-1.jpg" alt="Mita frame" />
-        <!-- JS troca os frames depois -->
-      </figure>
+      </div>
 
     </section>
 
@@ -123,7 +205,8 @@
   <footer class="footer">
     <p><strong>Créditos das imagens:</strong></p>
     <ul>
-      <li>Mita (MiSide) – Wallpaper por <a href="#" target="_blank">@JoyfuIIie</a></li>
+      <li>Mita (MiSide) – Wallpaper por <a href="https://www.deviantart.com/joyfuiiie/gallery"
+          target="_blank">@JoyfuIIie</a></li>
       <li>Outras fanarts por seus respectivos artistas</li>
     </ul>
 
@@ -132,7 +215,6 @@
     <p>© 2025 Olho Cósmico</p>
   </footer>
 
-  <!-- ================= JS (MENU) ================= -->
   <script src="./src/js/index.js"></script>
 
 </body>

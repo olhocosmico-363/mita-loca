@@ -18,9 +18,9 @@ const image = document.getElementById("mita-image");
 
 // array com os frames
 const frames = [
-  "./src/assets/images/mita-1.jpg",
-  "./src/assets/images/mita-2.jpg",
-  "./src/assets/images/mita-3.jpg"
+  "./src/assets/images/mita-1.png",
+  "./src/assets/images/mita-2.png",
+  "./src/assets/images/mita-3.png"
 ];
 
 audio.addEventListener("play", () => {

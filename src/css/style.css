@@ -1,14 +1,24 @@
-/* ================= RESET ================= */
+/* variaves */
+:root {
+  --primary-color: #ff4d6d;
+  --secondary-color: #111;
+  --background-color: #1a1a1a;
+  --text-color: #f0f0f0;
+}
+
+/* ================= RESET BASICO ================= */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Arial", sans-serif;
 }
 
+/* ================= BODY ================= */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #0f0f14;
-  color: #eaeaea;
+  background-color: var(--background-color);
+  color: var(--text-color);
   line-height: 1.6;
 }
 
@@ -19,8 +29,11 @@ body {
   align-items: center;
   gap: 1rem;
   padding: 0.75rem 1rem;
-  background-color: #16161f;
+  background-color: #16161f; /* cor do primeiro CSS */
   border-bottom: 1px solid #2a2a3a;
+  position: sticky; /* efeito que você gostou */
+  top: 0;
+  z-index: 10;
 }
 
 .header-left {
@@ -36,6 +49,7 @@ body {
 .header-search {
   display: flex;
   gap: 0.5rem;
+  width: 100%;
 }
 
 .header-search input {
@@ -62,38 +76,39 @@ body {
 
 /* ================= NAV TOPO ================= */
 .top-nav {
-  background-color: #1c1c28;
+  background-color: #222;
   border-bottom: 1px solid #2a2a3a;
 }
 
 .top-nav ul {
   display: flex;
   list-style: none;
-  gap: 1rem;
-  padding: 0.5rem 1rem;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 0;
 }
 
 .top-nav a {
-  color: #ccc;
+  color: var(--text-color);
   text-decoration: none;
+  font-weight: bold;
 }
 
 .top-nav a:hover {
-  color: #ff4d6d;
+  color: var(--primary-color);
 }
 
 /* ================= MENU LATERAL ================= */
 .sidebar-menu {
   position: fixed;
+  left: -300px;
   top: 0;
-  left: -280px;
-  width: 260px;
-  height: 100vh;
-  background-color: #14141c;
-  border-right: 1px solid #2a2a3a;
-  padding: 1rem;
+  width: 250px;
+  height: 100%;
+  background-color: #111;
+  padding: 20px;
   transition: left 0.3s ease;
-  z-index: 1000;
+  z-index: 20;
 }
 
 .sidebar-menu.active {
@@ -109,19 +124,19 @@ body {
 
 .sidebar-header h2 {
   font-size: 1.1rem;
-  color: #ff4d6d;
 }
 
-.close-sidebar {
+.sidebar-header button {
   background: none;
   border: none;
-  color: #ccc;
-  font-size: 1.1rem;
+  font-size: 18px;
   cursor: pointer;
+  color: #f0f0f0;
 }
 
 .sidebar-menu ul {
   list-style: none;
+  margin-top: 20px;
 }
 
 .sidebar-menu li {
@@ -129,45 +144,97 @@ body {
 }
 
 .sidebar-menu a {
-  color: #ccc;
+  color: #f0f0f0;
   text-decoration: none;
 }
 
 .sidebar-menu a:hover {
-  color: #fff;
+  color: #ff4d6d;
 }
 
-/* ================= CONTEÚDO ================= */
+/* ================= CONTEUDO PRINCIPAL ================= */
 .content {
-  padding: 1.5rem;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
 }
 
-/* títulos */
+/* Título da música */
 .music-header h1 {
   font-size: 1.6rem;
   margin-bottom: 0.3rem;
 }
 
 .music-header h2 {
-  font-size: 1.2rem;
+  font-size: 22px;
   color: #ff4d6d;
-  margin-bottom: 1.2rem;
 }
 
-/* ================= ÁREA DA MÚSICA ================= */
+/* ================= MUSIC AREA ================= */
 .music-area {
-  display: grid;
-  grid-template-columns: 1fr 320px;
-  gap: 1.5rem;
-  align-items: start;
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
 }
 
-/* PLAYER + TEXTO */
-.music-info audio {
+/* LADO ESQUERDO */
+.music-left {
+  flex: 1 1 500px;
+  min-width: 300px;
+}
+
+.music-left audio {
   width: 100%;
-  margin-bottom: 1rem;
+  margin-bottom: 15px;
 }
 
+
+.letra {
+  background-color: #16161f;
+  padding: 1rem;
+  border-radius: 6px;
+  border: 1px solid #2a2a3a;
+}
+
+
+.letra h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.letra h4 {
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #ff4d6d;
+}
+
+.letra p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+/* LADO DIREITO */
+.music-right {
+  flex: 1 1 300px;
+  min-width: 250px;
+}
+
+.music-image {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 15px;
+  border: 1px solid #2a2a3a;
+}
+
+.music-image img {
+  width: 100%;
+  border-radius: 10px;
+  transition: opacity 0.5s ease;
+}
+
+/* DESCRIÇÃO CURTA */
 .description {
   background-color: #16161f;
   padding: 1rem;
@@ -176,53 +243,42 @@ body {
 }
 
 .description h3 {
-  margin-bottom: 0.5rem;
-  color: #ff4d6d;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 
-/* VISUAL */
-.music-image {
-  background-color: #16161f;
-  padding: 0.75rem;
-  border-radius: 6px;
-  border: 1px solid #2a2a3a;
-  text-align: center;
-}
-
-.music-image img {
-  width: 100%;
-  border-radius: 4px;
+.description p {
+  margin-bottom: 8px;
+  font-size: 14px;
 }
 
 /* ================= FOOTER ================= */
 .footer {
-  background-color: #16161f;
-  border-top: 1px solid #2a2a3a;
-  padding: 1rem;
-  font-size: 0.85rem;
+  background-color: var(--secondary-color);
+  padding: 20px;
+  text-align: center;
+  font-size: 12px;
 }
 
 .footer ul {
   list-style: none;
-  margin: 0.5rem 0;
+  padding: 0;
+  margin: 5px 0;
 }
 
 .footer a {
-  color: #ff4d6d;
+  color: var(--primary-color);
   text-decoration: none;
 }
 
 /* ================= RESPONSIVO ================= */
 @media (max-width: 900px) {
   .music-area {
-    grid-template-columns: 1fr;
+    flex-direction: column;
   }
 
-  .header {
-    grid-template-columns: auto 1fr;
-  }
-
-  .header-account {
-    display: none;
+  .music-left,
+  .music-right {
+    min-width: 100%;
   }
 }
