@@ -1,9 +1,47 @@
 /* ================= VARIÁVEIS ================= */
 :root {
-  --primary-color: #ff4d6d;
-  --secondary-color: #111;
-  --background-color: #1a1a1a;
-  --text-color: #f0f0f0;
+  /* ===== CORES ===== */
+  --color-primary: #ff4d6d;
+  --color-secondary: #111;
+  --color-bg-main: #1a1a1a;
+  --color-bg-card: #16161f;
+  --color-bg-nav: #222;
+  --color-bg-button: #2a2a3a;
+
+  --color-border: #2a2a3a;
+  --color-text-main: #f0f0f0;
+  --color-text-muted: #ccc;
+
+  /* ===== TIPOGRAFIA ===== */
+  --font-base: "Arial", sans-serif;
+
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 22px;
+
+  /* ===== LAYOUT ===== */
+  --max-width-content: 1200px;
+
+  /* ===== BORDAS ===== */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+
+  /* ===== ESPAÇAMENTOS ===== */
+  --space-xs: 5px;
+  --space-sm: 10px;
+  --space-md: 15px;
+  --space-lg: 20px;
+
+  /* ===== ANIMAÇÕES ===== */
+  --transition-fast: 0.3s ease;
+  --transition-slow: 0.5s ease;
+
+  /* ===== Z-INDEX ===== */
+  --z-header: 10;
+  --z-sidebar: 20;
 }
 
 /* ================= RESET ================= */
@@ -11,13 +49,152 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Arial", sans-serif;
+  font-family: var(--font-base);
 }
 
 /* ================= BODY ================= */
 body {
-  background-color: var(--background-color);
-  color: var(--text-color);
+  background-color: var(--color-bg-main);
+  color: var(--color-text-main);
   line-height: 1.6;
 }
 
+/* ================= HEADER ================= */
+.header {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  background-color: var(--color-bg-card);
+  border-bottom: 1px solid var(--color-border);
+  position: sticky;
+  top: 0;
+  z-index: var(--z-header);
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.header-search {
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.header-search input {
+  width: 100%;
+  padding: 0.45rem 0.6rem;
+  border-radius: var(--radius-sm);
+  border: none;
+}
+
+.header-search button,
+.header-account button,
+.menu {
+  background-color: var(--color-bg-button);
+  color: #fff;
+  border: none;
+  padding: 0.45rem 0.65rem;
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+}
+
+.menu {
+  font-size: 1.1rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+
+/* ================= NAV TOPO ================= */
+.top-nav {
+  background-color: var(--color-bg-nav);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.top-nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+.top-nav a {
+  color: var(--color-text-main);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.top-nav a:hover {
+  color: var(--color-primary);
+}
+
+/* ================= FOOTER ================= */
+.footer {
+  background-color: var(--color-secondary);
+  padding: 20px;
+  text-align: center;
+  font-size: var(--font-size-xs);
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 5px 0;
+}
+
+.footer a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+/* ================= RESPONSIVO ================= */
+@media (max-width: 900px) {
+
+  .musica-layout {
+    flex-direction: column;
+  }
+
+  .letra,
+  .lado-direito {
+    min-width: 100%;
+  }
+
+  /* HEADER DO MAIN */
+  .musica-header {
+    align-items: center;
+    text-align: center;
+  }
+
+  .musica-topo {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .musica-logo {
+    width: 64px;
+    height: 64px;
+  }
+
+  .audio-box {
+    width: 100%;
+  }
+}
