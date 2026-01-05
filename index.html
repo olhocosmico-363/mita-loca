@@ -4,8 +4,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Yandere Music Wiki</title>
+  <!-- SEO -->
+  <meta name="description" content="Artigo completo sobre a Wipicrafty da mita Loca">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/assets/icon/favicon-32x32.png">
+
+  <title>Mita Loca — Música IA | Yandere Music Wiki</title>
+
+  <link rel="stylesheet" href="./src/css/global.css">
   <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="stylesheet" href="./src/css/responsivo.css">
 </head>
 
 <body>
@@ -14,13 +22,15 @@
   <header class="header">
     <div class="header-left">
       <button class="menu" aria-label="Abrir menu">☰</button>
-      <a href="index.html" class="logo">
-        <img src="./src/assets/images/logo.png" alt="Yandere Zone" />
+
+      <a href="index.html" aria-label="Voltar para a página inicial" class="logo">
+        <img src="./src/assets/images/logos/Wipicrafty.png" alt="logotipo com mascote do site" />
       </a>
     </div>
 
     <div class="header-search">
-      <input type="search" placeholder="Pesquisar música ou yandere" />
+      <label for="search" class="sr-only">Pesquisar</label>
+      <input id="search" type="search" placeholder="Pesquisar música ou yandere" />
       <button>🔍</button>
     </div>
 
@@ -30,7 +40,7 @@
   </header>
 
   <!-- ================= NAV TOPO ================= -->
-  <nav class="top-nav">
+  <nav class="top-nav" aria-label="Navegação principal">
     <ul>
       <li><a href="#">Home</a></li>
       <li><a href="#">Yanderes</a></li>
@@ -42,7 +52,8 @@
   </nav>
 
   <!-- ================= MENU LATERAL (OFF-CANVAS) ================= -->
-  <aside class="sidebar-menu">
+  <aside class="sidebar-menu" aria-label="Menu lateral">
+
     <header class="sidebar-header">
       <h2>Tipos de músicas</h2>
       <button class="close-sidebar" aria-label="Fechar menu">✖</button>
@@ -61,108 +72,34 @@
 
     <!-- HEADER DO CONTEÚDO -->
     <header class="musica-header">
-      <h1>Música da IA</h1>
-      <h2>Mita Loca</h2>
 
-      <!-- ÁUDIO AGORA FICA AQUI -->
+      <div class="musica-topo">
+        <img src="./src/assets/images/logos/yandere.png" alt="logo da yandere" class="musica-logo">
+
+        <div class="titulo">
+          <h1>Música da IA</h1>
+          <h2>Mita Loca</h2>
+        </div>
+      </div>
+
       <div class="audio-box">
         <audio id="audio-player" controls>
           <source src="./src/assets/audio/mita-loca.mp3" type="audio/mpeg">
           Seu navegador não suporta áudio.
         </audio>
       </div>
+
     </header>
+
 
     <!-- CONTEÚDO PRINCIPAL -->
     <section class="musica-layout">
 
       <!-- COLUNA ESQUERDA: LETRA -->
-      <article class="letra">
-        <h3>Letra</h3>
-
-        <section>
-          <h4>[Verso 1]</h4>
-          <p>
-            Olha nos meus olhos, me conta as tuas loucuras<br>
-            Fala que eu nunca escapo, que você tá na altura<br>
-            Enquanto eu corro, você vem pra me pegar<br>
-            Mina, você tá falando que eu sou refém do seu despertar
-          </p>
-
-          <p>
-            Essa energia que me faz te gostar<br>
-            Mina, mina, mina… que eu gosto, ah<br>
-            Quanto mais você me caça, mais eu me escondo<br>
-            Menina psicótica que finge não pedir
-          </p>
-        </section>
-
-        <section>
-          <h4>[Pré-Refrão]</h4>
-          <p>
-            É assim que eu te imploro, só pra sentir<br>
-            Me observa à distância, tudo tá bagunçado<br>
-            Cada vez que eu me escondo<br>
-            Sinto o seu chamado
-          </p>
-        </section>
-
-        <section>
-          <h4>[Refrão]</h4>
-          <p>
-            Quanto mais você me caça, mais eu me escondo<br>
-            Menina psicótica que finge não pedir<br>
-            É assim que eu te imploro, ó, só pra sentir<br>
-            É assim que eu te imploro, ó, só pra sentir
-          </p>
-        </section>
-
-        <section>
-          <h4>[Verso 2]</h4>
-          <p>
-            Esse jogo é intenso, eu não vou negar<br>
-            É com muito tesão, sinto o seu olhar<br>
-            Tô quase perdido, mesmo assim me encontro<br>
-            Sei que é proibido, mas me atrai de novo
-          </p>
-
-          <p>
-            E eu gosto, ahhh<br>
-            Quanto mais você me caça, mais eu me escondo<br>
-            Menina psicótica que finge não pedir<br>
-            É assim que eu te imploro, só pra sentir
-          </p>
-        </section>
-
-        <section>
-          <h4>[Ponte]</h4>
-          <p>
-            Mina, me pegou na rede da paixão<br>
-            Tô flutuando, perdido em contramão<br>
-            Mas eu sei que eu vou mergulhar<br>
-            Acabando em você
-          </p>
-
-          <p>
-            Mina, eu ainda posso lidar<br>
-            Mina, mina, mina… que eu gosto, ah
-          </p>
-        </section>
-
-        <section>
-          <h4>[Refrão Final]</h4>
-          <p>
-            Quanto mais você me caça, mais eu me escondo<br>
-            Menina psicótica que finge não pedir<br>
-            É assim que eu te imploro, só pra sentir<br>
-            É assim que eu te imploro… só pra sentirrr
-          </p>
-        </section>
-      </article>
+      <article id="js-letra" class="letra"></article>
 
       <!-- COLUNA DIREITA -->
       <aside class="lado-direito">
-
         <!-- IMAGEM / ANIMAÇÃO -->
         <figure class="imagem-box">
           <img id="mita-image" src="./src/assets/images/mita-1.png" alt="Imagem da Mita">
@@ -172,56 +109,15 @@
         </figure>
 
         <!-- DESCRIÇÃO -->
-        <article class="descricao">
-          <h3>Descrição</h3>
-          <p>
-            Música gerada por IA, com clima caótico, exagerado e divertido, marcada por repetições
-            e frases fragmentadas que reforçam a sensação de um jogo de “gato e rato” amoroso.
-            A letra apresenta um eu-lírico que se esconde e se deixa caçar, criando uma tensão
-            intensa, mas de forma lúdica e provocadora.
-          </p>
-
-          <p>
-            O eu-lírico alterna entre fuga e entrega, enquanto a figura observada surge como alguém
-            que caça, observa e provoca mesmo quando parece ausente. Expressões como
-            <em>“quanto mais você me caça, mais eu me escondo”</em> e
-            <em>“menina psicótica”</em> reforçam o clima de exagero romântico e zoeira.
-          </p>
-
-          <p>
-            A estrutura repetitiva e insistente não é um defeito, mas parte da estética da música,
-            criando um efeito de energia caótica, brincadeira e provocação — elementos típicos de
-            músicas experimentais e do estilo yandere de humor musical.
-          </p>
-
-          <p>
-            Nota: Esta música mistura caos, humor e obsessão romântica em uma estética exagerada.
-            Repetições e frases fragmentadas criam sensação de jogo de gato e rato.
-            O resultado é divertido, provocador e propositalmente intenso.
-          </p>
-
-        </article>
-
+        <article id="js-descricao" class="descricao"></article>
       </aside>
 
     </section>
 
   </main>
 
-
   <!-- ================= FOOTER ================= -->
-  <footer class="footer">
-    <p><strong>Créditos das imagens:</strong></p>
-    <ul>
-      <li>Mita (MiSide) – Wallpaper por <a href="https://www.deviantart.com/joyfuiiie/gallery"
-          target="_blank">@JoyfuIIie</a></li>
-      <li>Outras fanarts por seus respectivos artistas</li>
-    </ul>
-
-    <p>Todos os personagens pertencem aos seus criadores originais.</p>
-    <p>Site sem fins comerciais.</p>
-    <p>© 2025 Olho Cósmico</p>
-  </footer>
+  <footer id="js-footer" class="footer"></footer>
 
   <script type="module" src="./src/js/index.js"></script>
 </body>
