@@ -122,7 +122,6 @@ body {
   border: 0;
 }
 
-
 /* ================= NAV TOPO ================= */
 .top-nav {
   background-color: var(--color-bg-nav);
@@ -166,35 +165,56 @@ body {
   text-decoration: none;
 }
 
-/* ================= RESPONSIVO ================= */
-@media (max-width: 900px) {
+/* ================= MENU LATERAL ================= */
+.sidebar-menu {
+  position: fixed;
+  left: -300px;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  background-color: var(--color-secondary);
+  padding: 20px;
+  transition: left var(--transition-fast);
+  z-index: var(--z-sidebar);
+}
 
-  .musica-layout {
-    flex-direction: column;
-  }
+.sidebar-menu.active {
+  left: 0;
+}
 
-  .letra,
-  .lado-direito {
-    min-width: 100%;
-  }
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
 
-  /* HEADER DO MAIN */
-  .musica-header {
-    align-items: center;
-    text-align: center;
-  }
+.sidebar-header h2 {
+  font-size: 1.1rem;
+}
 
-  .musica-topo {
-    flex-direction: column;
-    gap: 8px;
-  }
+.sidebar-header button {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: var(--color-text-main);
+}
 
-  .musica-logo {
-    width: 64px;
-    height: 64px;
-  }
+.sidebar-menu ul {
+  list-style: none;
+  margin-top: 20px;
+}
 
-  .audio-box {
-    width: 100%;
-  }
+.sidebar-menu li {
+  margin-bottom: 0.6rem;
+}
+
+.sidebar-menu a {
+  color: var(--color-text-main);
+  text-decoration: none;
+}
+
+.sidebar-menu a:hover {
+  color: var(--color-primary);
 }

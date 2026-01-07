@@ -1,29 +1,26 @@
-const audio = document.getElementById("audio-player");
-const image = document.getElementById("mita-image");
+export function initAudioAnimation() {
+  const audio = document.getElementById("audio-player");
+  const image = document.getElementById("mita-image");
 
-// array com os frames
-const frames = [
-  "./src/assets/images/mita-1.png",
-  "./src/assets/images/mita-2.png",
-  "./src/assets/images/mita-3.png"
-];
+  if (!audio || !image) return;
 
-audio.addEventListener("play", () => {
-  let currentFrame = 0;
+  const frames = [
+    "./src/assets/images/mita-1.png",
+    "./src/assets/images/mita-2.png",
+    "./src/assets/images/mita-3.png"
+  ];
 
-  // atualiza imagem a cada 2 segundos
-  const interval = setInterval(() => {
-    if (audio.paused || audio.ended) {
-      clearInterval(interval);
-      return;
-    }
+  audio.addEventListener("play", () => {
+    let currentFrame = 0;
 
-    // troca imagem
-    image.src = frames[currentFrame];
+    const interval = setInterval(() => {
+      if (audio.paused || audio.ended) {
+        clearInterval(interval);
+        return;
+      }
 
-    // próximo frame
-    currentFrame++;
-    if (currentFrame >= frames.length) currentFrame = 0;
-
-  }, 2000); // 2000ms = 2 segundos
-});
+      image.src = frames[currentFrame];
+      currentFrame = (currentFrame + 1) % frames.length;
+    }, 2000);
+  });
+}
