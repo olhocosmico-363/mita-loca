@@ -1,0 +1,62 @@
+{
+  "musica": {
+    "titulo": "Música da IA",
+    "subtitulo": "Mita Loca",
+    "audio": {
+      "src": "./src/assets/audio/mita-loca.mp3",
+      "type": "audio/mpeg"
+    }
+  },
+  "letra": [
+    {
+      "tipo": "verso",
+      "titulo": "[Verso 1]",
+      "texto": [
+        "Olha nos meus olhos, me conta as tuas loucuras",
+        "Fala que eu nunca escapo, que você tá na altura",
+        "Enquanto eu corro, você vem pra me pegar",
+        "Mina, você tá falando que eu sou refém do seu despertar"
+      ]
+    },
+    {
+      "tipo": "verso",
+      "texto": [
+        "Essa energia que me faz te gostar",
+        "Mina, mina, mina… que eu gosto, ah",
+        "Quanto mais você me caça, mais eu me escondo",
+        "Menina psicótica que finge não pedir"
+      ]
+    },
+    {
+      "tipo": "pre-refrão",
+      "titulo": "[Pré-Refrão]",
+      "texto": [
+        "É assim que eu te imploro, só pra sentir",
+        "Me observa à distância, tudo tá bagunçado",
+        "Cada vez que eu me escondo",
+        "Sinto o seu chamado"
+      ]
+    },
+    {
+      "tipo": "refrão",
+      "titulo": "[Refrão]",
+      "texto": [
+        "Quanto mais você me caça, mais eu me escondo",
+        "Menina psicótica que finge não pedir",
+        "É assim que eu te imploro, ó, só pra sentir",
+        "É assim que eu te imploro, ó, só pra sentir"
+      ]
+    }
+  ],
+  "imagem": {
+    "src": "./src/assets/images/mita-1.png",
+    "alt": "Imagem da Mita",
+    "credito": "arte do autor @JoyfuIIie"
+  },
+  "descricao": [
+    "Música gerada por IA, com clima caótico, exagerado e divertido.",
+    "O eu-lírico alterna entre fuga e entrega.",
+    "A repetição faz parte da estética proposital.",
+    "Mistura caos, humor e obsessão romântica."
+  ]
+}
