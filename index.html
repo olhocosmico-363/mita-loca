@@ -9,7 +9,7 @@
 
     <link rel="icon" type="image/png" sizes="32x32" href="./src/assets/icon/favicon-32x32.png">
 
-    <title>Yandere Music Wiki</title>
+    <title id="yandere-misica">Yandere Music Wiki</title>
 
     <link rel="stylesheet" href="./src/css/global.css">
     <link rel="stylesheet" href="./src/css/style.css">
@@ -42,8 +42,8 @@
     <!-- ================= NAV TOPO ================= -->
     <nav class="top-nav" aria-label="Navegação principal">
         <ul>
-            <!-- o home ta comentado pois existe um arquivo antes dele que sao -->
-            <li><a href="">Home</a></li>
+            <!-- home ta comentado pois ele anda nao ta pronto para o site entao o inginore -->
+            <!-- <li><a href="">Home</a></li> -->
             <li><a href="./yandere">Yanderes</a></li>
             <li><a href="./index.html">Músicas</a></li>
             <li><a href="./sobre.html">Sobre</a></li>
@@ -83,26 +83,81 @@
     </aside>
 
     <!-- ================= CONTEÚDO PRINCIPAL ================= -->
-    <main id="js-main" class="main-content">
+    <main class="main-content">
         <!-- maim padrao -->
         <!-- main das informações da mita loca(MiSide) -->
         <!-- main das informações da Monika(Doki Doki Literature Club!) -->
         <!-- main das informações da Ayano Aishi(Yandere Simulator) -->
+        <!-- HEADER DO CONTEÚDO -->
+        <header class="musica-header">
 
+            <div class="musica-topo">
+                <img src="./src/assets/images/logos/yandere.png" alt="logo da yandere" class="logo-yandere">
+
+                <div class="titulo">
+                    <h1 id="musica-titulo">titulo da musica</h1>
+                    <h2 id="musica-subtitulo">nome da musica</h2>
+                </div>
+            </div>
+
+            <div class="audio-box">
+                <audio id="audio-player" controls>
+                    <source id="audio-source" type="audio/mpeg">
+                    Seu navegador não suporta áudio.
+                </audio>
+            </div>
+
+        </header>
+
+        <!-- CONTEÚDO PRINCIPAL -->
+        <section class="musica-layout">
+
+            <!-- COLUNA ESQUERDA: LETRA -->
+            <article class="letra">
+                <h3>Letra</h3>
+                <div id="letra-conteudo"></div>
+                <!-- versos entram via JS -->
+            </article>
+
+            <!-- COLUNA DIREITA -->
+            <aside class="lado-direito">
+
+                <!-- IMAGEM / ANIMAÇÃO -->
+                <figure class="imagem-box">
+                    <img id="imagem-frame">
+                    <figcaption id="imagem-nota"></figcaption>
+                </figure>
+
+                <!-- DESCRIÇÃO -->
+                <article class="descricao">
+                    <h3 id="descricao-titulo"></h3>
+                    <div id="descricao-conteudo"></div>
+                </article>
+
+            </aside>
+
+        </section>
     </main>
 
     <!-- ================= FOOTER ================= -->
-    <footer id="js-footer" class="footer">
+    <footer class="footer">
         <!-- rodape padrao -->
         <!-- rodape da mita loca(MiSide) -->
         <!-- rodape da mita Monika(Doki Doki Literature Club!) -->
         <!-- rodape da mita Ayano Aishi(Yandere Simulator) -->
 
+
+        <ul id="footer-creditos">
+            <!-- créditos entram via JS -->
+        </ul>
+
+        <p>Todos os personagens pertencem aos seus criadores originais.</p>
+        <p>Site sem fins comerciais.</p>
+        <p>© 2026 Olho Cósmico</p>
+
     </footer>
 
     <script type="module" src="./src/js/index.js"></script>
-    <script src="./src/js/letra.js"></script>
-    <script src="./src/js/header.js"></script>
 
 </body>
 

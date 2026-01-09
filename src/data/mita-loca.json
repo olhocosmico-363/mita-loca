@@ -1,62 +1,131 @@
 {
-  "musica": {
+  "header": {
     "titulo": "Música da IA",
     "subtitulo": "Mita Loca",
-    "audio": {
-      "src": "./src/assets/audio/mita-loca.mp3",
-      "type": "audio/mpeg"
-    }
+    "audio": "./src/assets/audio/mita-loca.mp3"
   },
+
   "letra": [
     {
-      "tipo": "verso",
       "titulo": "[Verso 1]",
-      "texto": [
-        "Olha nos meus olhos, me conta as tuas loucuras",
-        "Fala que eu nunca escapo, que você tá na altura",
-        "Enquanto eu corro, você vem pra me pegar",
-        "Mina, você tá falando que eu sou refém do seu despertar"
+      "paragrafos": [
+        [
+          "Olha nos meus olhos, me conta as tuas loucuras",
+          "Fala que eu nunca escapo, que você tá na altura",
+          "Enquanto eu corro, você vem pra me pegar",
+          "Mina, você tá falando que eu sou refém do seu despertar"
+        ],
+        [
+          "Essa energia que me faz te gostar",
+          "Mina, mina, mina… que eu gosto, ah",
+          "Quanto mais você me caça, mais eu me escondo",
+          "Menina psicótica que finge não pedir"
+        ]
       ]
     },
     {
-      "tipo": "verso",
-      "texto": [
-        "Essa energia que me faz te gostar",
-        "Mina, mina, mina… que eu gosto, ah",
-        "Quanto mais você me caça, mais eu me escondo",
-        "Menina psicótica que finge não pedir"
-      ]
-    },
-    {
-      "tipo": "pre-refrão",
       "titulo": "[Pré-Refrão]",
-      "texto": [
-        "É assim que eu te imploro, só pra sentir",
-        "Me observa à distância, tudo tá bagunçado",
-        "Cada vez que eu me escondo",
-        "Sinto o seu chamado"
+      "paragrafos": [
+        [
+          "É assim que eu te imploro, só pra sentir",
+          "Me observa à distância, tudo tá bagunçado",
+          "Cada vez que eu me escondo",
+          "Sinto o seu chamado"
+        ]
       ]
     },
     {
-      "tipo": "refrão",
       "titulo": "[Refrão]",
-      "texto": [
-        "Quanto mais você me caça, mais eu me escondo",
-        "Menina psicótica que finge não pedir",
-        "É assim que eu te imploro, ó, só pra sentir",
-        "É assim que eu te imploro, ó, só pra sentir"
+      "paragrafos": [
+        [
+          "Quanto mais você me caça, mais eu me escondo",
+          "Menina psicótica que finge não pedir",
+          "É assim que eu te imploro, ó, só pra sentir",
+          "É assim que eu te imploro, ó, só pra sentir"
+        ]
+      ]
+    },
+    {
+      "titulo": "[Verso 2]",
+      "paragrafos": [
+        [
+          "Esse jogo é intenso, eu não vou negar",
+          "É com muito tesão, sinto o seu olhar",
+          "Tô quase perdido, mesmo assim me encontro",
+          "Sei que é proibido, mas me atrai de novo"
+        ],
+        [
+          "E eu gosto, ahhh",
+          "Quanto mais você me caça, mais eu me escondo",
+          "Menina psicótica que finge não pedir",
+          "É assim que eu te imploro, só pra sentir"
+        ]
+      ]
+    },
+    {
+      "titulo": "[Ponte]",
+      "paragrafos": [
+        [
+          "Mina, me pegou na rede da paixão",
+          "Tô flutuando, perdido em contramão",
+          "Mas eu sei que eu vou mergulhar",
+          "Acabando em você"
+        ],
+        ["Mina, eu ainda posso lidar", "Mina, mina, mina… que eu gosto, ah"]
+      ]
+    },
+    {
+      "titulo": "[Refrão Final]",
+      "paragrafos": [
+        [
+          "Quanto mais você me caça, mais eu me escondo",
+          "Menina psicótica que finge não pedir",
+          "É assim que eu te imploro, só pra sentir",
+          "É assim que eu te imploro… só pra sentirrr"
+        ]
       ]
     }
   ],
-  "imagem": {
-    "src": "./src/assets/images/mita-1.png",
-    "alt": "Imagem da Mita",
-    "credito": "arte do autor @JoyfuIIie"
+
+  "ladoDireito": {
+    "imagem": {
+      "frames": [
+        "./src/assets/images/mita-1.png",
+        "./src/assets/images/mita-2.png",
+        "./src/assets/images/mita-3.png"
+      ],
+      "alt": "Imagem da Mita",
+      "nota": "arte do autor @JoyfuIIie."
+    },
+    "descricao": {
+      "titulo": "Descrição",
+      "paragrafos": [
+        "Música gerada por IA, com clima caótico, exagerado e divertido, marcada por repetições e frases fragmentadas que reforçam a sensação de um jogo de “gato e rato” amoroso. A letra apresenta um eu-lírico que se esconde e se deixa caçar, criando uma tensão intensa, mas de forma lúdica e provocadora.",
+        "O eu-lírico alterna entre fuga e entrega, enquanto a figura observada surge como alguém que caça, observa e provoca mesmo quando parece ausente. Expressões como <em>“quanto mais você me caça, mais eu me escondo”</em> e <em>“menina psicótica”</em> reforçam o clima de exagero romântico e zoeira.",
+        "A estrutura repetitiva e insistente não é um defeito, mas parte da estética da música, criando um efeito de energia caótica, brincadeira e provocação — elementos típicos de músicas experimentais e do estilo yandere de humor musical.",
+        "Nota: Esta música mistura caos, humor e obsessão romântica em uma estética exagerada. Repetições e frases fragmentadas criam sensação de jogo de gato e rato. O resultado é divertido, provocador e propositalmente intenso."
+      ]
+    }
   },
-  "descricao": [
-    "Música gerada por IA, com clima caótico, exagerado e divertido.",
-    "O eu-lírico alterna entre fuga e entrega.",
-    "A repetição faz parte da estética proposital.",
-    "Mistura caos, humor e obsessão romântica."
-  ]
+
+  "footer": {
+    "creditos": [
+      {
+        "texto": "Mita-1.png, Mita-2.png, Mita-3.png – Wallpaper por",
+        "autor": "@JoyfuIIie",
+        "link": "https://www.deviantart.com/joyfuiiie/gallery"
+      },
+      {
+        "texto": "Wipicrafty.png, Yandere.png – Imagens geradas por IA"
+      },
+      {
+        "texto": "Favicon-32x32.png – Refatoração da imagem Yandere.png"
+      },
+      {
+        "texto": "Mita-loca.mp3 – Música gerada por IA",
+        "destaque": "Udio",
+        "extra": "letra criada por mim com organização da IA ChatGPT"
+      }
+    ]
+  }
 }
