@@ -1,0 +1,159 @@
+{
+  "header": {
+    "titulo": "",
+    "subtitulo": "",
+    "audio": ""
+  },
+
+  "letra": [
+    {
+      "titulo": "[Verso 1]",
+      "paragrafos": [
+        [
+          "Porta trancada, escola vazia",
+          "Ouvi passos… deve ser paranoia",
+          "Luz piscando, faca na mão",
+          "Bom dia, eu moro na sua mansão",
+          "Você corre, eu ando devagar",
+          "Porque medo dá mais sabor pra caçar",
+          "GPS mental, sei onde você tá",
+          "Relaxa… eu só vim te observar"
+        ]
+      ]
+    },
+    {
+      "titulo": "[Pré-Refrão]",
+      "paragrafos": [
+        [
+          "Não é perseguição, é cuidado",
+          "Eu só sigo você… por todo lado",
+          "Se trancou? Que pena então",
+          "Já decorei cada direção"
+        ]
+      ]
+    },
+    {
+      "titulo": "[Refrão]",
+      "paragrafos": [
+        [
+          "Sou stalker, mas é por amor",
+          "Se escondendo, aumenta o valor",
+          "Corre mais, tenta escapar",
+          "Eu vou rir quando te encontrar",
+          "Sou stalker, isso é normal",
+          "Tá no manual da yandere oficial",
+          "Se você gritar, não leva a mal",
+          "É carinho em nível letal"
+        ]
+      ]
+    },
+    {
+      "titulo": "[Verso 2]",
+      "paragrafos": [
+        [
+          "Câmera quebrada, porta rangendo",
+          "Você rezando, eu sorrindo",
+          "Ouço a respiração atrás da parede",
+          "Calma… eu só quero falar com você",
+          "Apaga a luz, pensa que some",
+          "Mas eu vejo no escuro, fome é fome",
+          "Esconde no armário, debaixo da cama",
+          "Já marquei esse mapa na minha mente insana"
+        ]
+      ]
+    },
+    {
+      "titulo": "[Pré-Refrão 2]",
+      "paragrafos": [
+        [
+          "Prometo que não vai doer",
+          "(Mentira pequena, só pra você)",
+          "Se ficar quieto, cooperação",
+          "Isso facilita a situação"
+        ]
+      ]
+    },
+    {
+      "titulo": "[Refrão]",
+      "paragrafos": [
+        [
+          "Sou stalker, mas é com carinho",
+          "Te seguindo bem de mansinho",
+          "Se tropeçar, deixa eu ajudar",
+          "Com a faca pronta pra te amar",
+          "Sou stalker, isso é jogo casual",
+          "Você correndo, eu acho sensacional",
+          "Se tentar fugir até o final",
+          "Parabéns… desbloqueou final fatal"
+        ]
+      ]
+    },
+    {
+      "titulo": "[Ponte]",
+      "paragrafos": [
+        [
+          "Passo atrás de passo, risada no ar",
+          "Você pensando: “não dá pra ganhar”",
+          "Não é terror, é diversão",
+          "Você é o prêmio da minha obsessão"
+        ]
+      ]
+    },
+    {
+      "titulo": "[Refrão Final]",
+      "paragrafos": [
+        [
+          "Sou stalker, aceita logo",
+          "Quanto mais corre, mais eu jogo",
+          "Não adianta pedir perdão",
+          "Você já entrou no meu coração"
+        ]
+      ]
+    },
+    {
+      "titulo": "[Final]",
+      "paragrafos": [
+        [
+          "Apaga o jogo, tira o fone",
+          "Mas eu ainda sei seu nome",
+          "Se isso não é amor de verdade",
+          "Então por que você corre com tanta vontade?",
+          "Se eu te amo."
+        ]
+      ]
+    }
+  ],
+
+  "ladoDireito": {
+    "imagem": {
+      "frames": ["", "", ""],
+      "alt": "",
+      "nota": ""
+    },
+    "descricao": {
+      "titulo": "",
+      "paragrafos": ["", "", "", ""]
+    }
+  },
+
+  "footer": {
+    "creditos": [
+      {
+        "texto": "",
+        "autor": "",
+        "link": ""
+      },
+      {
+        "texto": ""
+      },
+      {
+        "texto": ""
+      },
+      {
+        "texto": "",
+        "destaque": "",
+        "extra": ""
+      }
+    ]
+  }
+}

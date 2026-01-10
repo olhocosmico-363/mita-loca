@@ -1,0 +1,112 @@
+{
+  "header": {
+    "titulo": "",
+    "subtitulo": "",
+    "audio": ""
+  },
+
+  "letra": [
+    {
+      "titulo": "[Verso 1]",
+      "paragrafos": [
+        [
+          "Resetei o jogo de Doki Doki Doki, nada funcionou",
+          "A Monika tá diferente, agora é Mônica que chamou",
+          "Vestido vermelho no lugar do uniforme escolar",
+          "Você não era assim, algo saiu do lugar",
+          "Cadê as meninas? Isso virou outro estilo de jogo louco",
+          "Não é mais terror visual novel, virou desenho meio tosco",
+          "Monika, abre o jogo, onde está a Sayori?",
+          "Iuri? Natsuki? Falha geral na memória",
+          "Só encontro a Mônica e o coelho de pelúcia",
+          "Acho que errei de jogo… isso é Turma da Mônica"
+        ]
+      ]
+    },
+    {
+      "titulo": "[Verso 2]",
+      "paragrafos": [
+        [
+          "Ela resetou o jogo achando que eu era o Sansão",
+          "Dizendo que me amava, espalhando confusão",
+          "Cebolinha, Magali e Cascão sumiram do mapa",
+          "Socorro, a Mônica enlouqueceu de verdade",
+          "Ela me prende, diz que eu sou só dela",
+          "Eu não sou coelho de pelúcia, nem o Cebolinha",
+          "Eu só queria jogar Doki Doki em paz",
+          "Não essa versão misturada que deu errado demais"
+        ]
+      ]
+    },
+    {
+      "titulo": "[Pré-Refrão]",
+      "paragrafos": [
+        [
+          "Ela me puxa, me ameaça, diz que me ama",
+          "Amor caótico, exagerado, drama",
+          "Misturou Doki Doki com o Limoeiro",
+          "Socorro, essa doida saiu do roteiro"
+        ]
+      ]
+    },
+    {
+      "titulo": "[Refrão]",
+      "paragrafos": [
+        [
+          "Socorro, Monika, volte a ser quem você era",
+          "Com coelho de pelúcia e sem faca na mão",
+          "Não estrague a Turma da Mônica inteira",
+          "Eles não têm culpa de você perder o Sansão",
+          "Socorro, Monika, lembra do que você gosta",
+          "Brincar, rir e amar sem assustar ninguém",
+          "Volta a ser Mônica… ou Monika, vai saber",
+          "Só para com essa loucura e me deixa viver"
+        ]
+      ]
+    },
+    {
+      "titulo": "[Ponte / Final]",
+      "paragrafos": [
+        [
+          "Resetei o jogo, mas nem precisou",
+          "Acordei do pesadelo, acho que exagerou",
+          "Isso que dá música Doki Doki de madrugada",
+          "Com Turma da Mônica e Coca-Cola chapada"
+        ]
+      ]
+    }
+  ],
+
+  "ladoDireito": {
+    "imagem": {
+      "frames": ["", "", ""],
+      "alt": "",
+      "nota": ""
+    },
+    "descricao": {
+      "titulo": "",
+      "paragrafos": ["", "", "", ""]
+    }
+  },
+
+  "footer": {
+    "creditos": [
+      {
+        "texto": "",
+        "autor": "",
+        "link": ""
+      },
+      {
+        "texto": ""
+      },
+      {
+        "texto": ""
+      },
+      {
+        "texto": "",
+        "destaque": "",
+        "extra": ""
+      }
+    ]
+  }
+}

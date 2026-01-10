@@ -1,0 +1,170 @@
+{
+  "header": {
+    "titulo": "",
+    "subtitulo": "",
+    "audio": ""
+  },
+
+  "letra": [
+    {
+      "titulo": "[Verso 1]",
+      "paragrafos": [
+        [
+          "Eu sou uma yandere, olhar vazio, sem emoção",
+          "Até que um dia na escola tudo mudou então",
+          "Taro Yamada, meu primeiro amor",
+          "Uniforme limpo, faca na mochila, isso não é estranho, é só minha vida",
+          "Passo pelo corredor, todo mundo ok",
+          "Três pessoas sumiram… mas tá tudo bem"
+        ]
+      ]
+    },
+    {
+      "titulo": "[Pré-Refrão]",
+      "paragrafos": [
+        [
+          "Respira fundo, tenta agir normal",
+          "Pisca duas vezes, isso é social?",
+          "Checklist do dia, tudo alinhado",
+          "Menos a parte de não ter matado"
+        ]
+      ]
+    },
+    {
+      "titulo": "[Refrão]",
+      "paragrafos": [
+        [
+          "Tutorial de como ser normal",
+          "Passo um: não assustar ninguém",
+          "Passo dois: não matar rival",
+          "Falhei de novo… e agora, hein?",
+          "Nem que eu me livre de todas elas",
+          "Pra te provar que você é só meu",
+          "Se isso não é amor verdadeiro",
+          "Então me explica o que aconteceu",
+          "Tutorial de como ser normal",
+          "Rir sozinho no corredor da escola",
+          "Achar tudo isso bem natural",
+          "Dizer que é normal… mesmo não sendo agora"
+        ]
+      ]
+    },
+    {
+      "titulo": "[Verso 2]",
+      "paragrafos": [
+        [
+          "Senpai passou, coração não reagiu",
+          "Mas o mundo inteiro já desapareceu",
+          "Sangue no chão, balde na mão",
+          "“Isso é ketchup”, digo sem emoção",
+          "A professora chama, eu digo “presente”",
+          "Com um corpo escondido discretamente",
+          "Fofoca no pátio, ninguém percebe",
+          "Amor verdadeiro é pegar o que você quer"
+        ]
+      ]
+    },
+    {
+      "titulo": "[Pré-Refrão 2]",
+      "paragrafos": [
+        [
+          "Não é obsessão, é dedicação",
+          "Amor profundo, sem explicação",
+          "Se ele sorrir, missão cumprida",
+          "Se alguém atrapalhar… despedida"
+        ]
+      ]
+    },
+    {
+      "titulo": "[Refrão]",
+      "paragrafos": [
+        [
+          "Tutorial de como ser normal",
+          "Passo um: fingir sentir algo",
+          "Passo dois: controle emocional",
+          "Erro crítico, sistema travado",
+          "Rir sozinho no corredor da escola",
+          "Tudo parece isso tão banal",
+          "Ser stalker, privacidade",
+          "Dizer que é amor… totalmente normal"
+        ]
+      ]
+    },
+    {
+      "titulo": "[Ponte]",
+      "paragrafos": [
+        [
+          "Estou triste, estou feliz",
+          "Troca rápida, nem sei mais",
+          "Todo mundo faz isso aqui",
+          "Ou só eu que sou assim demais?",
+          "Eu tentei copiar, juro que tentei",
+          "Ser igual a todo mundo ao meu redor",
+          "Mas sem querer… outra vez",
+          "Alguém sumiu no meu amor"
+        ]
+      ]
+    },
+    {
+      "titulo": "[Refrão Final]",
+      "paragrafos": [
+        [
+          "Tutorial de como ser normal",
+          "Última tentativa, prometo tentar",
+          "Mas se alguém olhar pro meu Senpai",
+          "Já sabe… não vai acabar em paz"
+        ]
+      ]
+    },
+    {
+      "titulo": "[Final]",
+      "paragrafos": [
+        [
+          "Desligo o jogo, olho no espelho",
+          "Rosto calmo, nada vermelho",
+          "Ser normal é difícil demais",
+          "Prefiro amar do meu jeito… em paz",
+          "Enquanto eu provoco o caos total",
+          "Digo: “sou normal, não sou louca, não”",
+          "Mamãe disse que isso é normal",
+          "Então aceita logo a conclusão:",
+          "Então você é meu,",
+          "E azar de quem contrariar minha decisão."
+        ]
+      ]
+    }
+  ],
+
+  "ladoDireito": {
+    "imagem": {
+      "frames": ["", "", ""],
+      "alt": "",
+      "nota": ""
+    },
+    "descricao": {
+      "titulo": "",
+      "paragrafos": ["", "", "", ""]
+    }
+  },
+
+  "footer": {
+    "creditos": [
+      {
+        "texto": "",
+        "autor": "",
+        "link": ""
+      },
+      {
+        "texto": ""
+      },
+      {
+        "texto": ""
+      },
+      {
+        "texto": "",
+        "destaque": "",
+        "extra": ""
+      }
+    ]
+  }
+}
