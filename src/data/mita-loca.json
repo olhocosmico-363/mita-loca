@@ -5,78 +5,84 @@
     "audio": "./src/assets/audio/mita-loca.mp3"
   },
 
-  "letra": [
-    {
-      "titulo": "[Verso 1]",
-      "paragrafos": [
-        [
-          "Olha nos meus olhos, conte-me as tuas loucuras",
-          "Fala que eu nunca escapo, que você tá na altura",
-          "E quando eu corro, você vem pra me pegar",
-          "Mita, você tá fora da linha, mas vou me entregar",
-          "Diz que sou refém, sempre no seu despertar",
-          "É essa energia que me faz te buscar"
-        ]
-      ]
+  "ladoEsquerdo": {
+    "genero": {
+      "principal": ["Dark Pop", "Electropop"],
+      "subgeneros": ["Synthpop", "Glitch Pop", "Electroclash"]
     },
-    {
-      "titulo": "[Refrão]",
-      "paragrafos": [
-        [
-          "Mita pra mim, o que eu gosto, ah",
-          "Quanto mais você me caça, mais eu me escondo,",
-          "Menina psicótica, que dedo não pede",
-          "E é assim que eu te imploro, só pra sentir"
+    "letra": [
+      {
+        "titulo": "[Verso 1]",
+        "paragrafos": [
+          [
+            "Olha nos meus olhos, conte-me as tuas loucuras",
+            "Fala que eu nunca escapo, que você tá na altura",
+            "E quando eu corro, você vem pra me pegar",
+            "Mita, você tá fora da linha, mas vou me entregar",
+            "Diz que sou refém, sempre no seu despertar",
+            "É essa energia que me faz te buscar"
+          ]
         ]
-      ]
-    },
-    {
-      "titulo": "[Verso 2]",
-      "paragrafos": [
-        [
-          "Me observe à distância, tudo tá bagunçado",
-          "Cada vez que eu me escondo, sinto o seu chamado",
-          "Esse jogo é intenso, eu não vou negar",
-          "Reclamo da prisão, mas não consigo largar",
-          "Sinto o seu olhar, eu estou quase perdido",
-          "E mesmo assim, meu encontro não é proibido"
+      },
+      {
+        "titulo": "[Refrão]",
+        "paragrafos": [
+          [
+            "Mita pra mim, o que eu gosto, ah",
+            "Quanto mais você me caça, mais eu me escondo,",
+            "Menina psicótica, que dedo não pede",
+            "E é assim que eu te imploro, só pra sentir"
+          ]
         ]
-      ]
-    },
-    {
-      "titulo": "[Refrão]",
-      "paragrafos": [
-        [
-          "Mita pra mim, o que eu gosto, ah",
-          "Quanto mais você me caça, mais eu me escondo,",
-          "Menina psicótica, que dedo não pede",
-          "E é assim que eu te imploro, só pra sentir"
+      },
+      {
+        "titulo": "[Verso 2]",
+        "paragrafos": [
+          [
+            "Me observe à distância, tudo tá bagunçado",
+            "Cada vez que eu me escondo, sinto o seu chamado",
+            "Esse jogo é intenso, eu não vou negar",
+            "Reclamo da prisão, mas não consigo largar",
+            "Sinto o seu olhar, eu estou quase perdido",
+            "E mesmo assim, meu encontro não é proibido"
+          ]
         ]
-      ]
-    },
-    {
-      "titulo": "[Ponte]",
-      "paragrafos": [
-        [
-          "Mita, eu peguei, na rede da paixão",
-          "Tô flutuando, perdido na contramão",
-          "Mas no fundo eu sei, que eu vou mergulhar",
-          "Acabando em você, ah, não posso evitar"
+      },
+      {
+        "titulo": "[Refrão]",
+        "paragrafos": [
+          [
+            "Mita pra mim, o que eu gosto, ah",
+            "Quanto mais você me caça, mais eu me escondo,",
+            "Menina psicótica, que dedo não pede",
+            "E é assim que eu te imploro, só pra sentir"
+          ]
         ]
-      ]
-    },
-    {
-      "titulo": "[Refrão Final]",
-      "paragrafos": [
-        [
-          "Mita pra mim, o que eu gosto, ah",
-          "Quanto mais você me caça, mais eu me escondo,",
-          "Menina psicótica, que dedo não pede",
-          "E é assim que eu te imploro, só pra sentir"
+      },
+      {
+        "titulo": "[Ponte]",
+        "paragrafos": [
+          [
+            "Mita, eu peguei, na rede da paixão",
+            "Tô flutuando, perdido na contramão",
+            "Mas no fundo eu sei, que eu vou mergulhar",
+            "Acabando em você, ah, não posso evitar"
+          ]
         ]
-      ]
-    }
-  ],
+      },
+      {
+        "titulo": "[Refrão Final]",
+        "paragrafos": [
+          [
+            "Mita pra mim, o que eu gosto, ah",
+            "Quanto mais você me caça, mais eu me escondo,",
+            "Menina psicótica, que dedo não pede",
+            "E é assim que eu te imploro, só pra sentir"
+          ]
+        ]
+      }
+    ]
+  },
 
   "ladoDireito": {
     "imagem": {
@@ -89,12 +95,31 @@
       "nota": "arte do autor @JoyfuIIie."
     },
     "descricao": {
-      "titulo": "Descrição",
-      "paragrafos": [
-        "Música gerada por IA, com clima caótico, exagerado e divertido, marcada por repetições e frases fragmentadas que reforçam a sensação de um jogo de “gato e rato” amoroso. A letra apresenta um eu-lírico que se esconde e se deixa caçar, criando uma tensão intensa, mas de forma lúdica e provocadora.",
-        "O eu-lírico alterna entre fuga e entrega, enquanto a figura observada surge como alguém que caça, observa e provoca mesmo quando parece ausente. Expressões como <em>“quanto mais você me caça, mais eu me escondo”</em> e <em>“menina psicótica”</em> reforçam o clima de exagero romântico e zoeira.",
-        "A estrutura repetitiva e insistente não é um defeito, mas parte da estética da música, criando um efeito de energia caótica, brincadeira e provocação — elementos típicos de músicas experimentais e do estilo yandere de humor musical.",
-        "Nota: Esta música mistura caos, humor e obsessão romântica em uma estética exagerada. Repetições e frases fragmentadas criam sensação de jogo de gato e rato. O resultado é divertido, provocador e propositalmente intenso."
+      "itens": [
+        {
+          "topico": "Origem e Estilo",
+          "texto": "Música gerada por IA com um clima caótico, exagerado e divertido. A composição utiliza repetições e frases fragmentadas para reforçar a sensação de um jogo amoroso de “gato e rato”."
+        },
+        {
+          "topico": "Narrativa e Dinâmica",
+          "texto": "A letra apresenta um eu-lírico que alterna entre se esconder e se deixar caçar. Esse movimento constante entre fuga e entrega cria uma tensão intensa, porém lúdica e provocadora."
+        },
+        {
+          "topico": "Personagem Observado",
+          "texto": "A figura que persegue surge como alguém que observa, caça e provoca, mesmo quando parece ausente. Expressões exageradas reforçam o tom irônico e de zoeira romântica."
+        },
+        {
+          "topico": "Estrutura e Estética",
+          "texto": "A repetição não é um erro, mas um recurso estético intencional. Ela cria uma energia caótica e insistente, típica de músicas experimentais e do estilo yandere tratado com humor."
+        },
+        {
+          "topico": "Clima e Emoções",
+          "texto": "A música mistura obsessão romântica, brincadeira e provocação, onde medo e desejo se confundem em um jogo psicológico intenso e divertido."
+        },
+        {
+          "topico": "Nota",
+          "texto": "Esta canção combina caos, humor e exagero em uma estética propositalmente intensa. O resultado é provocador, memorável e feito para causar impacto."
+        }
       ]
     }
   },

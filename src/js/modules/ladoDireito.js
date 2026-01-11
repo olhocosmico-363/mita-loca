@@ -1,6 +1,7 @@
 export function renderLadoDireito(data) {
   const { imagem, descricao } = data.ladoDireito;
 
+  // ================= IMAGEM =================
   const img = document.getElementById("imagem-frame");
   const nota = document.getElementById("imagem-nota");
 
@@ -14,12 +15,20 @@ export function renderLadoDireito(data) {
     img.src = imagem.frames[i];
   }, 2000);
 
-  document.getElementById("descricao-titulo").textContent = descricao.titulo;
-
+  // ================= DESCRIÇÃO =================
   const box = document.getElementById("descricao-conteudo");
-  descricao.paragrafos.forEach(t => {
+
+  // Limpa conteúdo antigo
+  box.innerHTML = "";
+
+  descricao.itens.forEach((item) => {
     const p = document.createElement("p");
-    p.innerHTML = t;
+
+    p.innerHTML = `
+    <strong class="topico">${item.topico}:</strong>
+    ${item.texto}
+  `;
+
     box.appendChild(p);
-  });
+  })
 }

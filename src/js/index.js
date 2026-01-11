@@ -7,7 +7,7 @@ import { getPersonagem } from "./utils/params.js";
 
 // Módulos responsáveis por renderizar cada parte da página
 import { renderHeader } from "./modules/header.js";
-import { renderLetra } from "./modules/letra.js";
+import { renderLadoEsquerdo} from "./modules/ladoEsquerdo.js";
 import { renderLadoDireito } from "./modules/ladoDireito.js";
 import { renderFooter } from "./modules/footer.js";
 
@@ -33,7 +33,7 @@ async function init() {
 
   // Renderiza cada seção da página
   renderHeader(data);
-  renderLetra(data);
+  renderLadoEsquerdo(data);
   renderLadoDireito(data);
   renderFooter(data);
 }

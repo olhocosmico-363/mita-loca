@@ -112,12 +112,27 @@
         <!-- CONTEÚDO PRINCIPAL -->
         <section class="musica-layout">
 
-            <!-- COLUNA ESQUERDA: LETRA -->
-            <article class="letra">
-                <h3>Letra</h3>
-                <div id="letra-conteudo"></div>
-                <!-- versos entram via JS -->
-            </article>
+            <aside class="coluna-esquerda">
+                <article class="genero">
+                    <h3>Gênero</h3>
+
+                    <div class="genero-bloco">
+                        <h4>Gênero principal</h4>
+                        <ul id="genero-principal" class="genero-tags"></ul>
+                    </div>
+
+                    <div class="genero-bloco">
+                        <h4>Subgêneros</h4>
+                        <ul id="subgeneros" class="genero-tags"></ul>
+                    </div>
+                </article>
+
+                <article class="letra">
+                    <h3>Letra</h3>
+                    <div id="letra-conteudo"></div>
+                </article>
+
+            </aside>
 
             <!-- COLUNA DIREITA -->
             <aside class="lado-direito">
@@ -125,13 +140,13 @@
                 <!-- IMAGEM / ANIMAÇÃO -->
                 <figure class="imagem-box">
                     <img id="imagem-frame">
-                    <figcaption id="imagem-nota"></figcaption>
+                    <figcaption id="imagem-nota">caregando autor</figcaption>
                 </figure>
 
                 <!-- DESCRIÇÃO -->
                 <article class="descricao">
-                    <h3 id="descricao-titulo"></h3>
-                    <div id="descricao-conteudo"></div>
+                    <h3>Descrição da Música</h3>
+                    <div id="descricao-conteudo">caregando...</div>
                 </article>
 
             </aside>
