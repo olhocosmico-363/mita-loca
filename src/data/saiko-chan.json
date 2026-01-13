@@ -1,159 +1,173 @@
 {
   "header": {
-    "titulo": "",
-    "subtitulo": "",
+    "titulo": "Não Fuja de Mim",
+    "subtitulo": "Saiko-chan",
     "audio": ""
   },
 
-  "letra": [
-    {
-      "titulo": "[Verso 1]",
-      "paragrafos": [
-        [
-          "Porta trancada, escola vazia",
-          "Ouvi passos… deve ser paranoia",
-          "Luz piscando, faca na mão",
-          "Bom dia, eu moro na sua mansão",
-          "Você corre, eu ando devagar",
-          "Porque medo dá mais sabor pra caçar",
-          "GPS mental, sei onde você tá",
-          "Relaxa… eu só vim te observar"
-        ]
-      ]
+  "ladoEsquerdo": {
+    "genero": {
+      "principal": [],
+      "subgeneros": []
     },
-    {
-      "titulo": "[Pré-Refrão]",
-      "paragrafos": [
-        [
-          "Não é perseguição, é cuidado",
-          "Eu só sigo você… por todo lado",
-          "Se trancou? Que pena então",
-          "Já decorei cada direção"
+
+    "letra": [
+      {
+        "titulo": "[Verso 1]",
+        "paragrafos": [
+          [
+            "Porta trancada, escola vazia",
+            "Ouvi passos… deve ser paranoia",
+            "Luz piscando, faca na mão",
+            "Bom dia, eu moro na sua mansão",
+            "Você corre, eu ando devagar",
+            "Porque medo dá mais sabor pra caçar",
+            "GPS mental, sei onde você tá",
+            "Relaxa… eu só vim te observar"
+          ]
         ]
-      ]
-    },
-    {
-      "titulo": "[Refrão]",
-      "paragrafos": [
-        [
-          "Sou stalker, mas é por amor",
-          "Se escondendo, aumenta o valor",
-          "Corre mais, tenta escapar",
-          "Eu vou rir quando te encontrar",
-          "Sou stalker, isso é normal",
-          "Tá no manual da yandere oficial",
-          "Se você gritar, não leva a mal",
-          "É carinho em nível letal"
+      },
+      {
+        "titulo": "[Pré-Refrão]",
+        "paragrafos": [
+          [
+            "Não é perseguição, é cuidado",
+            "Eu só sigo você… por todo lado",
+            "Se trancou? Que pena então",
+            "Já decorei cada direção"
+          ]
         ]
-      ]
-    },
-    {
-      "titulo": "[Verso 2]",
-      "paragrafos": [
-        [
-          "Câmera quebrada, porta rangendo",
-          "Você rezando, eu sorrindo",
-          "Ouço a respiração atrás da parede",
-          "Calma… eu só quero falar com você",
-          "Apaga a luz, pensa que some",
-          "Mas eu vejo no escuro, fome é fome",
-          "Esconde no armário, debaixo da cama",
-          "Já marquei esse mapa na minha mente insana"
+      },
+      {
+        "titulo": "[Refrão]",
+        "paragrafos": [
+          [
+            "Sou stalker, mas é por amor",
+            "Se escondendo, aumenta o valor",
+            "Corre mais, tenta escapar",
+            "Eu vou rir quando te encontrar",
+            "Sou stalker, isso é normal",
+            "Tá no manual da yandere oficial",
+            "Se você gritar, não leva a mal",
+            "É carinho em nível letal"
+          ]
         ]
-      ]
-    },
-    {
-      "titulo": "[Pré-Refrão 2]",
-      "paragrafos": [
-        [
-          "Prometo que não vai doer",
-          "(Mentira pequena, só pra você)",
-          "Se ficar quieto, cooperação",
-          "Isso facilita a situação"
+      },
+      {
+        "titulo": "[Verso 2]",
+        "paragrafos": [
+          [
+            "Câmera quebrada, porta rangendo",
+            "Você rezando, eu sorrindo",
+            "Ouço a respiração atrás da parede",
+            "Calma… eu só quero falar com você",
+            "Apaga a luz, pensa que some",
+            "Mas eu vejo no escuro, fome é fome",
+            "Esconde no armário, debaixo da cama",
+            "Já marquei esse mapa na minha mente insana"
+          ]
         ]
-      ]
-    },
-    {
-      "titulo": "[Refrão]",
-      "paragrafos": [
-        [
-          "Sou stalker, mas é com carinho",
-          "Te seguindo bem de mansinho",
-          "Se tropeçar, deixa eu ajudar",
-          "Com a faca pronta pra te amar",
-          "Sou stalker, isso é jogo casual",
-          "Você correndo, eu acho sensacional",
-          "Se tentar fugir até o final",
-          "Parabéns… desbloqueou final fatal"
+      },
+      {
+        "titulo": "[Pré-Refrão 2]",
+        "paragrafos": [
+          [
+            "Prometo que não vai doer",
+            "(Mentira pequena, só pra você)",
+            "Se ficar quieto, cooperação",
+            "Isso facilita a situação"
+          ]
         ]
-      ]
-    },
-    {
-      "titulo": "[Ponte]",
-      "paragrafos": [
-        [
-          "Passo atrás de passo, risada no ar",
-          "Você pensando: “não dá pra ganhar”",
-          "Não é terror, é diversão",
-          "Você é o prêmio da minha obsessão"
+      },
+      {
+        "titulo": "[Refrão]",
+        "paragrafos": [
+          [
+            "Sou stalker, mas é com carinho",
+            "Te seguindo bem de mansinho",
+            "Se tropeçar, deixa eu ajudar",
+            "Com a faca pronta pra te amar",
+            "Sou stalker, isso é jogo casual",
+            "Você correndo, eu acho sensacional",
+            "Se tentar fugir até o final",
+            "Parabéns… desbloqueou final fatal"
+          ]
         ]
-      ]
-    },
-    {
-      "titulo": "[Refrão Final]",
-      "paragrafos": [
-        [
-          "Sou stalker, aceita logo",
-          "Quanto mais corre, mais eu jogo",
-          "Não adianta pedir perdão",
-          "Você já entrou no meu coração"
+      },
+      {
+        "titulo": "[Ponte]",
+        "paragrafos": [
+          [
+            "Passo atrás de passo, risada no ar",
+            "Você pensando: “não dá pra ganhar”",
+            "Não é terror, é diversão",
+            "Você é o prêmio da minha obsessão"
+          ]
         ]
-      ]
-    },
-    {
-      "titulo": "[Final]",
-      "paragrafos": [
-        [
-          "Apaga o jogo, tira o fone",
-          "Mas eu ainda sei seu nome",
-          "Se isso não é amor de verdade",
-          "Então por que você corre com tanta vontade?",
-          "Se eu te amo."
+      },
+      {
+        "titulo": "[Refrão Final]",
+        "paragrafos": [
+          [
+            "Sou stalker, aceita logo",
+            "Quanto mais corre, mais eu jogo",
+            "Não adianta pedir perdão",
+            "Você já entrou no meu coração"
+          ]
         ]
-      ]
-    }
-  ],
+      },
+      {
+        "titulo": "[Final]",
+        "paragrafos": [
+          [
+            "Apaga o jogo, tira o fone",
+            "Mas eu ainda sei seu nome",
+            "Se isso não é amor de verdade",
+            "Então por que você corre com tanta vontade?",
+            "Se eu te amo."
+          ]
+        ]
+      }
+    ]
+  },
 
   "ladoDireito": {
     "imagem": {
-      "frames": ["", "", ""],
+      "frames": [],
       "alt": "",
       "nota": ""
     },
     "descricao": {
-      "titulo": "",
-      "paragrafos": ["", "", "", ""]
+      "itens": [
+        {
+          "topico": "Origem e Estilo",
+          "texto": "Música gerada por IA com foco em terror psicológico e estética yandere. Diferente das demais, esta composição abandona o humor escrachado e aposta em uma abordagem mais fria, direta e ameaçadora, com poucos exageros explícitos."
+        },
+        {
+          "topico": "Narrativa e Dinâmica",
+          "texto": "A letra descreve uma perseguição constante, onde a tensão cresce de forma contínua. Não há fuga real ou alívio cômico: cada verso reforça a sensação de vigilância, controle e inevitabilidade, criando um jogo de caça sem regras claras para a vítima."
+        },
+        {
+          "topico": "Personagem Observado",
+          "texto": "A personagem central se apresenta como calma, racional e segura de suas ações. Ela redefine perseguição como cuidado e violência como carinho, demonstrando uma visão distorcida do amor baseada em posse e obsessão silenciosa."
+        },
+        {
+          "topico": "Estrutura e Estética",
+          "texto": "A música utiliza repetições e frases curtas para reforçar a ideia de rotina e insistência. Elementos como “manual”, “jogo casual” e “final fatal” aparecem não como piada aberta, mas como ironia fria, sugerindo que a violência é tratada como algo trivial."
+        },
+        {
+          "topico": "Clima e Emoções",
+          "texto": "O clima é opressor e desconfortável. A ausência de emoção explícita intensifica o impacto, fazendo com que a ameaça soe constante e inevitável. O humor, quando existe, surge apenas como sarcasmo cruel e provocação psicológica."
+        },
+        {
+          "topico": "Nota",
+          "texto": "Sombria, inquietante e irônica, esta música aposta na frieza para causar impacto. Não busca fazer rir, mas provocar tensão, explorando o lado mais sério e perturbador do arquétipo yandere."
+        }
+      ]
     }
   },
 
   "footer": {
-    "creditos": [
-      {
-        "texto": "",
-        "autor": "",
-        "link": ""
-      },
-      {
-        "texto": ""
-      },
-      {
-        "texto": ""
-      },
-      {
-        "texto": "",
-        "destaque": "",
-        "extra": ""
-      }
-    ]
+    "creditos": []
   }
 }

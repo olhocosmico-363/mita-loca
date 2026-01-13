@@ -1,111 +1,135 @@
 {
   "header": {
-    "titulo": "",
-    "subtitulo": "",
-    "audio": ""
+    "titulo": "A Turma da Monika",
+    "subtitulo": "Doki Doki",
+    "audio": "./src/assets/audio/a-turma-da-monika-doki-doki.mp3"
   },
 
-  "letra": [
-    {
-      "titulo": "[Verso 1]",
-      "paragrafos": [
-        [
-          "Resetei o jogo de Doki Doki Doki, nada funcionou",
-          "A Monika tá diferente, agora é Mônica que chamou",
-          "Vestido vermelho no lugar do uniforme escolar",
-          "Você não era assim, algo saiu do lugar",
-          "Cadê as meninas? Isso virou outro estilo de jogo louco",
-          "Não é mais terror visual novel, virou desenho meio tosco",
-          "Monika, abre o jogo, onde está a Sayori?",
-          "Iuri? Natsuki? Falha geral na memória",
-          "Só encontro a Mônica e o coelho de pelúcia",
-          "Acho que errei de jogo… isso é Turma da Mônica"
-        ]
-      ]
+  "ladoEsquerdo": {
+    "genero": {
+      "principal": [],
+      "subgeneros": []
     },
-    {
-      "titulo": "[Verso 2]",
-      "paragrafos": [
-        [
-          "Ela resetou o jogo achando que eu era o Sansão",
-          "Dizendo que me amava, espalhando confusão",
-          "Cebolinha, Magali e Cascão sumiram do mapa",
-          "Socorro, a Mônica enlouqueceu de verdade",
-          "Ela me prende, diz que eu sou só dela",
-          "Eu não sou coelho de pelúcia, nem o Cebolinha",
-          "Eu só queria jogar Doki Doki em paz",
-          "Não essa versão misturada que deu errado demais"
+
+    "letra": [
+      {
+        "titulo": "[Verso 1]",
+        "paragrafos": [
+          [
+            "Resetei o jogo de Doki Doki Doki, nada funcionou",
+            "A Monika tá diferente, agora é Mônica que chamou",
+            "Vestido vermelho no lugar do uniforme escolar",
+            "Você não era assim, algo saiu do lugar",
+            "Cadê as meninas? Isso virou outro estilo de jogo louco",
+            "Não é mais terror visual novel, virou desenho meio tosco",
+            "Monika, abre o jogo, onde está a Sayori?",
+            "Iuri? Natsuki? Falha geral na memória",
+            "Só encontro a Mônica e o coelho de pelúcia",
+            "Acho que errei de jogo… isso é Turma da Mônica"
+          ]
         ]
-      ]
-    },
-    {
-      "titulo": "[Pré-Refrão]",
-      "paragrafos": [
-        [
-          "Ela me puxa, me ameaça, diz que me ama",
-          "Amor caótico, exagerado, drama",
-          "Misturou Doki Doki com o Limoeiro",
-          "Socorro, essa doida saiu do roteiro"
+      },
+      {
+        "titulo": "[Verso 2]",
+        "paragrafos": [
+          [
+            "Ela resetou o jogo achando que eu era o Sansão",
+            "Dizendo que me amava, espalhando confusão",
+            "Cebolinha, Magali e Cascão sumiram do mapa",
+            "Socorro, a Mônica enlouqueceu de verdade",
+            "Ela me prende, diz que eu sou só dela",
+            "Eu não sou coelho de pelúcia, nem o Cebolinha",
+            "Eu só queria jogar Doki Doki em paz",
+            "Não essa versão misturada que deu errado demais"
+          ]
         ]
-      ]
-    },
-    {
-      "titulo": "[Refrão]",
-      "paragrafos": [
-        [
-          "Socorro, Monika, volte a ser quem você era",
-          "Com coelho de pelúcia e sem faca na mão",
-          "Não estrague a Turma da Mônica inteira",
-          "Eles não têm culpa de você perder o Sansão",
-          "Socorro, Monika, lembra do que você gosta",
-          "Brincar, rir e amar sem assustar ninguém",
-          "Volta a ser Mônica… ou Monika, vai saber",
-          "Só para com essa loucura e me deixa viver"
+      },
+      {
+        "titulo": "[Pré-Refrão]",
+        "paragrafos": [
+          [
+            "Ela me puxa, me ameaça, diz que me ama",
+            "Amor caótico, exagerado, drama",
+            "Misturou Doki Doki com o Limoeiro",
+            "Socorro, essa doida saiu do roteiro"
+          ]
         ]
-      ]
-    },
-    {
-      "titulo": "[Ponte / Final]",
-      "paragrafos": [
-        [
-          "Resetei o jogo, mas nem precisou",
-          "Acordei do pesadelo, acho que exagerou",
-          "Isso que dá música Doki Doki de madrugada",
-          "Com Turma da Mônica e Coca-Cola chapada"
+      },
+      {
+        "titulo": "[Refrão]",
+        "paragrafos": [
+          [
+            "Socorro, Monika, volte a ser quem você era",
+            "Com coelho de pelúcia e sem faca na mão",
+            "Não estrague a Turma da Mônica inteira",
+            "Eles não têm culpa de você perder o Sansão",
+            "Socorro, Monika, lembra do que você gosta",
+            "Brincar, rir e amar sem assustar ninguém",
+            "Volta a ser Mônica… ou Monika, vai saber",
+            "Só para com essa loucura e me deixa viver"
+          ]
         ]
-      ]
-    }
-  ],
+      },
+      {
+        "titulo": "[Ponte / Final]",
+        "paragrafos": [
+          [
+            "Resetei o jogo, mas nem precisou",
+            "Acordei do pesadelo, acho que exagerou",
+            "Isso que dá música Doki Doki de madrugada",
+            "Com Turma da Mônica e Coca-Cola chapada"
+          ]
+        ]
+      }
+    ]
+  },
 
   "ladoDireito": {
     "imagem": {
-      "frames": ["", "", ""],
+      "frames": ["./src/assets/images/monica.png"],
       "alt": "",
       "nota": ""
     },
     "descricao": {
-      "titulo": "",
-      "paragrafos": ["", "", "", ""]
+      "itens": [
+        {
+          "topico": "Origem e Estilo ",
+          "texto": "Música gerada por IA com um clima surreal e cômico. A composição mistura elementos do universo Doki Doki com a Turma da Mônica, criando uma narrativa absurda, cheia de contrastes inesperados. O estilo brinca com a quebra das regras do jogo e exagera referências pop de forma proposital."
+        },
+        {
+          "topico": "Narrativa e Dinâmica ",
+          "texto": "A letra acompanha um eu-lírico tentando se orientar em um mundo completamente distorcido, onde personagens, cenários e regras se misturam sem lógica. O caos constante imprime um ritmo rápido e imprevisível, reforçando a sensação de confusão e surpresa a cada verso."
+        },
+        {
+          "topico": "Personagem Observado ",
+          "texto": "Monika/Mônica é retratada como uma figura instável, exagerada e caótica. Suas ações imprevisíveis geram frustração e estranhamento no eu-lírico, produzindo humor a partir do choque entre expectativa e realidade. A personagem alterna de forma absurda entre ameaça e demonstrações de afeto."
+        },
+        {
+          "topico": "Estrutura e Estética ",
+          "texto": "A música aposta em uma narrativa não linear, com repetições e referências intertextuais usadas como recurso humorístico. A quebra constante de regras narrativas e visuais reforça uma estética de paródia e exagero, típica de experimentações musicais com IA."
+        },
+        {
+          "topico": "Clima e Emoções ",
+          "texto": "O clima é bizarro, caótico e divertido. O ouvinte experimenta surpresa, confusão e riso ao mesmo tempo, como se estivesse preso em um pesadelo absurdo que mistura desenho animado e visual novel."
+        }
+      ]
     }
   },
 
   "footer": {
     "creditos": [
       {
-        "texto": "",
-        "autor": "",
-        "link": ""
+        "texto": "monica.png -  por",
+        "autor": "sweetievickie",
+        "link": "https://www.deviantart.com/sweetievickie"
       },
       {
-        "texto": ""
+        "texto": "Wipicrafty.png, Yandere.png, Favicon-32x32.png – Imagens geradas por IA"
       },
       {
-        "texto": ""
-      },
-      {
-        "texto": "",
-        "destaque": "",
-        "extra": ""
+        "texto": "a-turma-da-monika-doki-doki.mp3 – Música gerada por IA",
+        "destaque": "Udio",
+        "extra": "letra criada por mim com organização da IA ChatGPT"
       }
     ]
   }

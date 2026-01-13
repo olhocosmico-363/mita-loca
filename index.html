@@ -54,7 +54,7 @@
     <aside class="sidebar-menu" aria-label="Menu lateral">
 
         <header class="sidebar-header">
-            <h2 id="js-titulo">Tipos de músicas</h2>
+            <h3 id="js-titulo">Tipos de músicas</h3>
             <button class="close-sidebar" aria-label="Fechar menu">✖</button>
         </header>
 
@@ -64,10 +64,11 @@
             <details>
                 <summary>musicais</summary>
                 <ul>
-                    <li><a href="">mita loca</a></li>
-                    <li><a href="">monica</a></li>
-                    <li><a href="">ayano</a></li>
-                    <li><a href="">Saiko no sutoka</a></li>
+                    <li><a href="?p=mita-loca">Mita Loca</a></li>
+                    <li><a href="?p=monika">Monika</a></li>
+                    <li><a href="?p=ayano">Ayano</a></li>
+                    <li><a href="?p=saiko-chan">Saiko no Sutoka</a></li>
+
                 </ul>
             </details>
             <details>
@@ -155,22 +156,53 @@
     </main>
 
     <!-- ================= FOOTER ================= -->
-    <footer class="footer">
-        <!-- rodape padrao -->
-        <!-- rodape da mita loca(MiSide) -->
-        <!-- rodape da mita Monika(Doki Doki Literature Club!) -->
-        <!-- rodape da mita Ayano Aishi(Yandere Simulator) -->
+    <footer class="site-footer" aria-label="Rodapé do site">
 
+        <!-- AVISO AUTORAL -->
+        <p class="aviso-autoral">
+            Todos os personagens pertencem aos seus criadores originais.
+        </p>
 
-        <ul id="footer-creditos">
-            <!-- créditos entram via JS -->
-        </ul>
+        <!-- CRÉDITOS -->
+        <section class="creditos">
+            <h4>Créditos</h4>
+            <ul class="lista-creditos">
+                <li>
+                    Wallpaper: Mita-1.png, Mita-2.png, Mita-3.png –
+                    <a href="https://www.deviantart.com/joyfuiiie/gallery" target="_blank"
+                        rel="noopener noreferrer">JoyfuIIie</a>
+                </li>
 
-        <p>Todos os personagens pertencem aos seus criadores originais.</p>
-        <p>Site sem fins comerciais.</p>
-        <p>© 2026 Olho Cósmico</p>
+                <li>
+                    Imagens geradas por IA: Wipicrafty.png, Yandere.png, Favicon-32x32.png –
+                    <a href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a>
+                </li>
+
+                <li>
+                    Letra organizada por IA:
+                    <a href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a>
+                </li>
+
+                <li>
+                    Música gerada por IA:
+                    <a href="https://www.udio.com/home" target="_blank" rel="noopener noreferrer">Udio</a> — antes da
+                    antes mudança de política em 29 de outubro de 2025,
+                </li>
+            </ul>
+        </section>
+
+        <!-- AVISO DE USO -->
+        <p class="aviso-uso">
+            Site sem fins comerciais.
+        </p>
+
+        <!-- COPYRIGHT -->
+        <p class="copyright">
+            © 2026 <strong>Olho Cósmico</strong>
+        </p>
 
     </footer>
+
 
     <script type="module" src="./src/js/index.js"></script>
 

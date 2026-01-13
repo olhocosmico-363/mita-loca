@@ -5,7 +5,7 @@
   padding: 0 20px;
 }
 
-/* HEADER DO CONTEÚDO */
+/* ====== HEADER DO CONTEÚDO ====== */
 .musica-header {
   display: flex;
   flex-direction: column;
@@ -39,7 +39,6 @@
   line-height: 1.2;
 }
 
-
 .audio-box audio {
   width: 100%;
   margin-top: 6px;
@@ -48,111 +47,22 @@
 
 /* ================= MUSIC AREA ================= */
 .musica-layout {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 20px;
-  flex-wrap: wrap;
+  align-items: stretch;
 }
 
-/* LADO esquerdo */
-.coluna-esquerda {
-  flex: 1 1 500px;
-  min-width: 300px;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-/* LETRA */
-.letra {
-  background-color: var(--color-bg-card);
-  padding: 1rem;
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-border);
-}
-
-
-
-.letra h3 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.letra h4 {
-  font-size: var(--font-size-md);
-  margin-top: 15px;
-  margin-bottom: 5px;
-  color: var(--color-primary);
-}
-
-.letra p {
-  margin-bottom: 10px;
-  line-height: 1.5;
-}
-
-/* LADO DIREITO */
+.coluna-esquerda,
 .lado-direito {
-  flex: 1 1 300px;
-  min-width: 250px;
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-/* IMAGEM */
-.imagem-box {
-  width: 100%;
-  text-align: center;
-  border: 1px solid var(--color-border);
-  background-color: var(--color-bg-card);
-  padding: 0.75rem;
-  border-radius: var(--radius-md);
-}
+/* ================= LADO esquerdo ================= */
 
-.imagem-box img {
-  width: 100%;
-  border-radius: var(--radius-lg);
-  transition: opacity var(--transition-slow);
-}
-
-.imagem-box figcaption {
-  font-size: var(--font-size-xs);
-  margin-top: 5px;
-  color: var(--color-text-main);
-}
-
-/* DESCRIÇÃO */
-.descricao {
-  background-color: var(--color-bg-card);
-  padding: 1rem;
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-border);
-}
-
-.descricao h3 {
-  font-size: var(--font-size-lg);
-  margin-bottom: 10px;
-}
-
-.descricao p {
-  font-size: var(--font-size-sm);
-  margin-bottom: 8px;
-  line-height: 1.5;
-}
-
-.descricao .topico {
-  color: var(--color-primary);
-  font-weight: 600;
-}
-
-
-.genero-tags {
-    margin-top: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-}
-
-/* ================= GÊNERO ================= */
+/* ==== GÊNERO ==== */
 .genero {
   background-color: var(--color-bg-card);
   padding: 1rem;
@@ -175,7 +85,7 @@
   color: var(--color-primary);
 }
 
-/* TAGS */
+/* === TAGS === */
 .genero-tags {
   display: flex;
   flex-wrap: wrap;
@@ -195,9 +105,89 @@
   transition: transform 0.15s ease, background-color 0.15s ease;
 }
 
-/* HOVER */
+/* === HOVER === */
 .genero-tags li:hover {
   background-color: var(--color-primary);
   color: #fff;
   transform: translateY(-1px);
+}
+
+/* ==== LETRA ==== */
+.letra {
+  background-color: var(--color-bg-card);
+  padding: 1rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+}
+
+.letra h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.letra h4 {
+  font-size: var(--font-size-md);
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: var(--color-primary);
+}
+
+.letra p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+/* ================= LADO DIREITO ================= */
+
+/* === IMAGEM === */
+
+.imagem-box {
+  width: 100%;
+  text-align: center;
+  border: 1px solid var(--color-border);
+  background-color: var(--color-bg-card);
+  padding: 0.75rem;
+  border-radius: var(--radius-md);
+}
+
+.imagem-box img.limite-mita {
+  max-height: 71.5vh;
+}
+
+.imagem-box img {
+  width: 100%;
+  border-radius: var(--radius-lg);
+  transition: opacity var(--transition-slow);
+}
+
+.imagem-box figcaption {
+  font-size: var(--font-size-xs);
+  margin-top: 5px;
+  color: var(--color-text-main);
+}
+
+/* ==== DESCRIÇÃO ==== */
+.descricao {
+  background-color: var(--color-bg-card);
+  padding: 1rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+}
+
+.descricao h3 {
+  font-size: var(--font-size-lg);
+  margin-bottom: 12px;
+}
+
+.descricao h4 {
+  font-size: var(--font-size-md);
+  color: var(--color-primary);
+  font-weight: 600;
+  margin: 10px 0 4px;
+}
+
+.descricao p {
+  font-size: var(--font-size-sm);
+  margin-bottom: 8px;
+  line-height: 1.5;
 }

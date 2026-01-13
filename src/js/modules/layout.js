@@ -6,3 +6,7 @@ export function renderHeader(data) {
   source.src = data.header.audio;
   document.getElementById("audio-player").load();
 }
+
+export function renderFooter(data) {
+  
+}

@@ -13,6 +13,8 @@ export function renderLadoDireito(data) {
   setInterval(() => {
     i = (i + 1) % imagem.frames.length;
     img.src = imagem.frames[i];
+
+    aplicarAjusteImagem(getPersonagem());
   }, 2000);
 
   // ================= DESCRIÇÃO =================
@@ -21,14 +23,18 @@ export function renderLadoDireito(data) {
   // Limpa conteúdo antigo
   box.innerHTML = "";
 
-  descricao.itens.forEach((item) => {
+  descricao.forEach((item) => {
+    const wrapper = document.createElement("div");
+    wrapper.className = "descricao-item";
+
+    const h4 = document.createElement("h4");
+    h4.textContent = item.topico;
+
     const p = document.createElement("p");
+    p.textContent = item.texto;
 
-    p.innerHTML = `
-    <strong class="topico">${item.topico}:</strong>
-    ${item.texto}
-  `;
-
-    box.appendChild(p);
-  })
+    wrapper.appendChild(h4);
+    wrapper.appendChild(p);
+    box.appendChild(wrapper);
+  });
 }
