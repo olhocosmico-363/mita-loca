@@ -84,16 +84,18 @@
     </aside>
 
     <!-- ================= CONTEÚDO PRINCIPAL ================= -->
+    <!-- maim padrao -->
+    <!-- main das informações da mita loca(MiSide) -->
+    <!-- main das informações da Monika(Doki Doki Literature Club!) -->
+    <!-- main das informações da Ayano Aishi(Yandere Simulator) -->
+    <!-- HEADER DO CONTEÚDO -->
     <main class="main-content">
-        <!-- maim padrao -->
-        <!-- main das informações da mita loca(MiSide) -->
-        <!-- main das informações da Monika(Doki Doki Literature Club!) -->
-        <!-- main das informações da Ayano Aishi(Yandere Simulator) -->
-        <!-- HEADER DO CONTEÚDO -->
+
         <header class="musica-header">
 
             <div class="musica-topo">
-                <img src="./src/assets/images/logos/yandere.png" alt="logo da yandere" class="logo-yandere">
+                <img src="./src/assets/images/logos/yandere.png" alt="logo da yandere"
+                    class="logo-yandere" id="logo-musica">
 
                 <div class="titulo">
                     <h1 id="musica-titulo">titulo da musica</h1>
@@ -158,51 +160,41 @@
     <!-- ================= FOOTER ================= -->
     <footer class="site-footer" aria-label="Rodapé do site">
 
-        <!-- AVISO AUTORAL -->
-        <p class="aviso-autoral">
-            Todos os personagens pertencem aos seus criadores originais.
-        </p>
+        <div class="footer-top">
 
-        <!-- CRÉDITOS -->
-        <section class="creditos">
-            <h4>Créditos</h4>
-            <ul class="lista-creditos">
-                <li>
-                    Wallpaper: Mita-1.png, Mita-2.png, Mita-3.png –
-                    <a href="https://www.deviantart.com/joyfuiiie/gallery" target="_blank"
-                        rel="noopener noreferrer">JoyfuIIie</a>
-                </li>
+            <!-- CRÉDITOS -->
+            <section class="creditos" aria-labelledby="titulo-creditos">
+                <header>
+                    <h4>Créditos</h4>
+                </header>
+                <div id="creditos-conteudo"></div>
+            </section>
 
-                <li>
-                    Imagens geradas por IA: Wipicrafty.png, Yandere.png, Favicon-32x32.png –
-                    <a href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a>
-                </li>
+            <!-- AVISO AUTORAL -->
+            <aside class="aviso footer-box" aria-labelledby="titulo-aviso">
+                <header>
+                    <h4 id="titulo-aviso">Aviso Autoral</h4>
+                </header>
 
-                <li>
-                    Letra organizada por IA:
-                    <a href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a>
-                </li>
+                <p class="aviso-autoral">
+                    Todos os personagens pertencem aos seus criadores originais.<br>
+                    Site sem fins comerciais ou monetização.
+                </p>
+            </aside>
 
-                <li>
-                    Música gerada por IA:
-                    <a href="https://www.udio.com/home" target="_blank" rel="noopener noreferrer">Udio</a> — antes da
-                    antes mudança de política em 29 de outubro de 2025,
-                </li>
-            </ul>
-        </section>
-
-        <!-- AVISO DE USO -->
-        <p class="aviso-uso">
-            Site sem fins comerciais.
-        </p>
+        </div>
 
         <!-- COPYRIGHT -->
-        <p class="copyright">
-            © 2026 <strong>Olho Cósmico</strong>
+        <p class="copyright footer-box">
+            © <span id="ano"></span> <strong>Olho Cósmico</strong>
         </p>
 
     </footer>
 
+    <script>
+        const anoEl = document.getElementById("ano");
+        if (anoEl) anoEl.textContent = new Date().getFullYear();
+    </script>
 
     <script type="module" src="./src/js/index.js"></script>
 

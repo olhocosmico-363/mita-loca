@@ -29,4 +29,12 @@
   .audio-box {
     width: 100%;
   }
+
+  .footer-top {
+    flex-direction: column;
+  }
+
+  .aviso {
+    width: 100%;
+  }
 }

@@ -12,6 +12,13 @@
   --color-text-main: #f0f0f0;
   --color-text-muted: #ccc;
 
+  --footer-bg: #0f0f14;
+  --footer-text: #d6d6e0;
+  --footer-muted: #9a9ab0;
+  --footer-border: rgba(255, 255, 255, 0.15);
+  --footer-panel: rgba(255, 255, 255, 0.03);
+  --footer-link: #7aa2ff;
+
   /* ===== TIPOGRAFIA ===== */
   --font-base: "Arial", sans-serif;
 
@@ -145,147 +152,6 @@ body {
 .top-nav a:hover {
   color: var(--color-primary);
 }
-
-/* ================= FOOTER ================= */
-/* ================= FOOTER ================= */
-.site-footer {
-  background-color: var(--color-secondary);
-  padding: 24px 20px;
-  text-align: center;
-  font-size: var(--font-size-xs);
-  line-height: 1.5;
-}
-
-/* TÍTULO */
-.site-footer h4 {
-  font-size: var(--font-size-sm);
-  margin-bottom: 8px;
-  color: var(--color-text-main);
-}
-
-/* BLOCO DE CRÉDITOS */
-.creditos {
-  margin-bottom: 16px;
-}
-
-/* LISTA DE CRÉDITOS */
-#footer-creditos {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-#footer-creditos li {
-  margin-bottom: 6px;
-  line-height: 1.5;
-}
-
-/* LINKS */
-/* .site-footer a {
-  color: var(--color-primary);
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.site-footer a:hover {
-  text-decoration: underline;
-}
-
-.aviso-autoral,
-.aviso-uso {
-  margin: 6px 0;
-  opacity: 0.85;
-}
-
-.site-footer .copyright {
-  margin-top: 10px;
-  opacity: 0.75;
-}
-
-#footer-creditos strong {
-  font-weight: 600;
-}
-
-#footer-creditos em {
-  opacity: 0.8;
-}
-
-#footer-creditos small {
-  display: block;
-  font-size: var(--font-size-xs);
-  opacity: 0.7;
-} */
-
-/* FOOTER */
-.site-footer {
-  background-color: var(--color-secondary);
-  padding: 20px;
-  text-align: center;
-  font-size: var(--font-size-xs);
-}
-
-/* DETAILS */
-.site-footer details {
-  margin-bottom: 12px;
-}
-
-/* SUMMARY */
-.site-footer summary {
-  cursor: pointer;
-  font-weight: 600;
-  color: var(--color-primary);
-  list-style: none;
-}
-
-.site-footer summary::-webkit-details-marker {
-  display: none;
-}
-
-/* ÍCONE SIMPLES */
-.site-footer summary::after {
-  content: " ▾";
-  font-size: 0.8em;
-}
-
-.site-footer details[open] summary::after {
-  content: " ▴";
-}
-
-/* LISTA */
-.site-footer ul {
-  list-style: none;
-  padding: 8px 0 0;
-  margin: 0;
-}
-
-.site-footer li {
-  margin-bottom: 6px;
-  line-height: 1.4;
-}
-
-/* LINKS */
-.site-footer a {
-  color: var(--color-primary);
-  text-decoration: none;
-}
-
-.site-footer a:hover {
-  text-decoration: underline;
-}
-
-/* AVISOS */
-.aviso-autoral,
-.aviso-uso {
-  margin: 6px 0;
-  opacity: 0.85;
-}
-
-/* COPYRIGHT */
-.copyright {
-  margin-top: 8px;
-  opacity: 0.75;
-}
-
 
 /* ================= MENU LATERAL ================= */
 .sidebar-menu {

@@ -1,14 +1,23 @@
 {
   "header": {
+    "logo": "./src/assets/images/logos/saiko-chan.jpeg",
+    "logoAlt": "Logo da musuca stalker",
+
     "titulo": "Não Fuja de Mim",
     "subtitulo": "Saiko-chan",
-    "audio": ""
+    "audio": "./src/assets/audio/te-persigo-como-uma-stalker-saiko-chan-yandere.mp3"
   },
 
   "ladoEsquerdo": {
     "genero": {
-      "principal": [],
-      "subgeneros": []
+      "principal": ["Dark Pop", "Electropop", "Electronic"],
+      "subgeneros": [
+        "Synthpop",
+        "Bitpop",
+        "Glitch Pop",
+        "Electroclash",
+        "Dark Electronic"
+      ]
     },
 
     "letra": [
@@ -137,37 +146,83 @@
       "alt": "",
       "nota": ""
     },
-    "descricao": {
-      "itens": [
-        {
-          "topico": "Origem e Estilo",
-          "texto": "Música gerada por IA com foco em terror psicológico e estética yandere. Diferente das demais, esta composição abandona o humor escrachado e aposta em uma abordagem mais fria, direta e ameaçadora, com poucos exageros explícitos."
-        },
-        {
-          "topico": "Narrativa e Dinâmica",
-          "texto": "A letra descreve uma perseguição constante, onde a tensão cresce de forma contínua. Não há fuga real ou alívio cômico: cada verso reforça a sensação de vigilância, controle e inevitabilidade, criando um jogo de caça sem regras claras para a vítima."
-        },
-        {
-          "topico": "Personagem Observado",
-          "texto": "A personagem central se apresenta como calma, racional e segura de suas ações. Ela redefine perseguição como cuidado e violência como carinho, demonstrando uma visão distorcida do amor baseada em posse e obsessão silenciosa."
-        },
-        {
-          "topico": "Estrutura e Estética",
-          "texto": "A música utiliza repetições e frases curtas para reforçar a ideia de rotina e insistência. Elementos como “manual”, “jogo casual” e “final fatal” aparecem não como piada aberta, mas como ironia fria, sugerindo que a violência é tratada como algo trivial."
-        },
-        {
-          "topico": "Clima e Emoções",
-          "texto": "O clima é opressor e desconfortável. A ausência de emoção explícita intensifica o impacto, fazendo com que a ameaça soe constante e inevitável. O humor, quando existe, surge apenas como sarcasmo cruel e provocação psicológica."
-        },
-        {
-          "topico": "Nota",
-          "texto": "Sombria, inquietante e irônica, esta música aposta na frieza para causar impacto. Não busca fazer rir, mas provocar tensão, explorando o lado mais sério e perturbador do arquétipo yandere."
-        }
-      ]
-    }
+    "descricao": [
+      {
+        "topico": "Origem e Estilo",
+        "texto": "Música gerada por IA com foco em terror psicológico e estética yandere, usando elementos de Dark Pop, Electropop e eletrônica. A composição mistura obsessão, controle e tensão de forma direta, criando uma atmosfera sombria e intensa, com pitadas de glitch e experimentalismo musical para reforçar o clima de vigilância constante."
+      },
+      {
+        "topico": "Narrativa e Dinâmica",
+        "texto": "A letra acompanha uma perseguição contínua, onde cada ação do eu-lírico é monitorada e antecipada pela personagem. A alternância entre cuidado aparente e ameaça velada cria tensão crescente, mantendo o ouvinte em estado de expectativa e desconforto psicológico."
+      },
+      {
+        "topico": "Personagem Observado",
+        "texto": "Saiko-chan se apresenta como calma, segura e metódica, transformando perseguição em demonstração de afeto distorcido. Suas ações exageradas e precisas misturam obsessão, controle e possessividade, mostrando uma visão do amor baseada em vigilância constante e inevitabilidade da aproximação."
+      },
+      {
+        "topico": "Estrutura e Estética",
+        "texto": "Repetições, frases curtas e referências como “manual”, “jogo casual” e “final fatal” reforçam a sensação de rotina e insistência. A música aposta em estética fria e direta, utilizando ironia sutil e tensão constante, em vez de humor explícito ou exageros cômicos."
+      },
+      {
+        "topico": "Clima e Emoções",
+        "texto": "O clima é opressor, tenso e inquietante. A música provoca desconforto e ansiedade, explorando o lado sombrio do arquétipo yandere. Quando há humor, ele surge de forma irônica e fria, amplificando a sensação de ameaça psicológica e obsessão."
+      }
+    ]
   },
 
   "footer": {
-    "creditos": []
+    "creditos": {
+      "blocos": [
+        {
+          "tipo": "wallpaper",
+          "texto": "Wallpaper por",
+          "autor": {
+            "nome": "JoyfuIIie",
+            "url": "https://www.deviantart.com/joyfuiiie/gallery"
+          },
+          "itens": [
+            { "label": "Mita 1", "url": "./src/assets/images/mita-1.png" },
+            { "label": "Mita 2", "url": "./src/assets/images/mita-2.png" },
+            { "label": "Mita 3", "url": "./src/assets/images/mita-3.png" }
+          ]
+        },
+        {
+          "tipo": "imagens_ia",
+          "texto": "Imagens geradas por IA",
+          "autor": {
+            "nome": "ChatGPT",
+            "url": "https://chatgpt.com/"
+          },
+          "itens": [
+            {
+              "label": "Logo Wipicrafty",
+              "url": "./src/assets/images/logos/Wipicrafty.png"
+            },
+            {
+              "label": "Logo Yandere",
+              "url": "./src/assets/images/logos/saiko-chan.jpeg"
+            },
+            {
+              "label": "Favicon",
+              "url": "./src/assets/icon/favicon-32x32.png"
+            }
+          ]
+        },
+        {
+          "tipo": "musica",
+          "texto": "Música gerada por IA",
+          "autor": {
+            "nome": "Udio",
+            "url": "https://www.udio.com/home",
+            "observacao": "antes da mudança de política em 29 de outubro de 2025"
+          },
+          "audio": {
+            "label": "▶ Ouvir áudio",
+            "arquivo": "./src/assets/audio/te-persigo-como-uma-stalker-saiko-chan-yandere.mp3",
+            "ariaLabel": "Ouvir música gerada por IA"
+          }
+        }
+      ]
+    }
   }
 }

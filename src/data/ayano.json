@@ -1,5 +1,8 @@
 {
   "header": {
+    "logo": "./src/assets/images/logos/Ayano.jpeg",
+    "logoAlt": "Logo da personagem Mita",
+
     "titulo": "Tutorial de Como Ser Normal",
     "subtitulo": "Ayano - Yandere",
     "audio": "./src/assets/audio/tutorial-de-como-ser-normal-ayano-yandere.mp3"
@@ -7,9 +10,16 @@
 
   "ladoEsquerdo": {
     "genero": {
-      "principal": [],
-      "subgeneros": []
+      "principal": ["Pop", "Dark Pop", "Electropop"],
+      "subgeneros": [
+        "Synthpop",
+        "Electronic",
+        "Glitch Pop",
+        "Electroclash",
+        "Bitpop"
+      ]
     },
+
     "letra": [
       {
         "titulo": "[Verso 1]",
@@ -147,37 +157,83 @@
       "alt": "",
       "nota": ""
     },
-    "descricao": {
-      "itens": [
-        {
-          "topico": "Origem e Estilo:",
-          "texto": "Música gerada por IA com forte influência de humor negro e terror psicológico. A composição utiliza a linguagem de tutoriais, checklists e falhas de sistema para ironizar a tentativa de normalidade em um contexto yandere."
-        },
-        {
-          "topico": "Narrativa e Dinâmica:",
-          "texto": "A letra acompanha uma personagem que tenta seguir um “manual social” para agir como uma pessoa comum, mas falha repetidamente. A narrativa alterna entre momentos de autocontrole e lapsos de violência, criando uma progressão caótica que reforça a ironia do conceito de normalidade."
-        },
-        {
-          "topico": "Personagem Observado:",
-          "texto": "Ayano é apresentada como alguém que racionaliza obsessão e violência como formas legítimas de amor. Suas ações extremas são justificadas internamente como dedicação e cuidado, revelando uma desconexão completa entre percepção e realidade."
-        },
-        {
-          "topico": "Estrutura e Estética:",
-          "texto": "A música se constrói como um tutorial quebrado: passos claros que nunca funcionam, erros críticos e sistemas travados. Essa estrutura reforça a ideia de que a normalidade é inalcançável dentro da lógica da personagem, funcionando como sátira narrativa."
-        },
-        {
-          "topico": "Clima e Emoções:",
-          "texto": "O clima mistura frieza emocional, humor ácido e desconforto. A repetição de frases e comandos cria uma sensação mecânica, quase robótica, contrastando com a violência implícita e o caos crescente da história."
-        },
-        {
-          "topico": "Nota:",
-          "texto": "Irônica, perturbadora e sarcástica, a música transforma o conceito de “ser normal” em uma piada cruel, explorando a hipocrisia emocional e o humor negro característico do universo yandere."
-        }
-      ]
-    }
+    "descricao": [
+      {
+        "topico": "Origem e Estilo:",
+        "texto": "Música gerada por IA com forte influência de humor negro e terror psicológico, combinando elementos de pop eletrônico com estética yandere. A composição utiliza linguagem de tutoriais, checklists e falhas de sistema para ironizar a tentativa de normalidade dentro de um contexto violento e distorcido."
+      },
+      {
+        "topico": "Narrativa e Dinâmica:",
+        "texto": "A letra acompanha uma personagem que tenta seguir um “manual social” para agir como alguém comum. Cada passo, porém, falha de forma progressiva, alternando momentos de autocontrole artificial com lapsos de violência e obsessão. Essa dinâmica cria uma narrativa caótica, onde a normalidade é constantemente simulada, mas nunca alcançada."
+      },
+      {
+        "topico": "Personagem Observado:",
+        "texto": "Ayano é retratada como emocionalmente vazia e altamente racional. Ela redefine obsessão como dedicação e violência como prova de amor, justificando suas ações extremas através de uma lógica fria e funcional. A desconexão entre sua percepção interna e a realidade externa é o núcleo psicológico da personagem."
+      },
+      {
+        "topico": "Estrutura e Estética:",
+        "texto": "A música se constrói como um tutorial quebrado: instruções claras, passos numerados e “erros críticos” que surgem repetidamente. Essa estrutura reforça a ideia de um sistema falho, onde a tentativa de ser normal entra em conflito direto com o caos interno da personagem."
+      },
+      {
+        "topico": "Clima e Emoções:",
+        "texto": "O clima mistura frieza emocional, humor ácido e desconforto crescente. A repetição mecânica de frases e comandos cria uma sensação quase robótica, contrastando com a violência implícita e o caos que se intensifica ao longo da música."
+      }
+    ]
   },
 
   "footer": {
-    "creditos": []
+    "creditos": {
+      "blocos": [
+        {
+          "tipo": "wallpaper",
+          "texto": "Wallpaper por",
+          "autor": {
+            "nome": "JoyfuIIie",
+            "url": "https://www.deviantart.com/joyfuiiie/gallery"
+          },
+          "itens": [
+            { "label": "Mita 1", "url": "./src/assets/images/mita-1.png" },
+            { "label": "Mita 2", "url": "./src/assets/images/mita-2.png" },
+            { "label": "Mita 3", "url": "./src/assets/images/mita-3.png" }
+          ]
+        },
+        {
+          "tipo": "imagens_ia",
+          "texto": "Imagens geradas por IA",
+          "autor": {
+            "nome": "ChatGPT",
+            "url": "https://chatgpt.com/"
+          },
+          "itens": [
+            {
+              "label": "Logo Wipicrafty",
+              "url": "./src/assets/images/logos/Wipicrafty.png"
+            },
+            {
+              "label": "Logo Yandere",
+              "url": "./src/assets/images/logos/Ayano.jpeg",
+              "observacao": "Logo Yandere gerado pelo Suno"
+            },
+            {
+              "label": "Favicon",
+              "url": "./src/assets/icon/favicon-32x32.png"
+            }
+          ]
+        },
+        {
+          "tipo": "musica",
+          "texto": "Música gerada por IA",
+          "autor": {
+            "nome": "Suno",
+            "url": "https://suno.com/"
+          },
+          "audio": {
+            "label": "▶ Ouvir áudio",
+            "arquivo": "./src/assets/audio/tutorial-de-como-ser-normal-ayano-yandere.mp3",
+            "ariaLabel": "Ouvir música gerada por IA"
+          }
+        }
+      ]
+    }
   }
 }

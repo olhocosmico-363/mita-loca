@@ -1,5 +1,8 @@
 {
   "header": {
+    "logo": "./src/assets/images/logos/monica.png",
+    "logoAlt": "Logo da personagem ",
+
     "titulo": "A Turma da Monika",
     "subtitulo": "Doki Doki",
     "audio": "./src/assets/audio/a-turma-da-monika-doki-doki.mp3"
@@ -7,8 +10,8 @@
 
   "ladoEsquerdo": {
     "genero": {
-      "principal": [],
-      "subgeneros": []
+      "principal": ["Pop", "Dance-pop", "Electropop"],
+      "subgeneros": ["Synthpop", "Bitpop", "Eletrônico", "Energético"]
     },
 
     "letra": [
@@ -86,51 +89,87 @@
 
   "ladoDireito": {
     "imagem": {
-      "frames": ["./src/assets/images/monica.png"],
-      "alt": "",
+      "frames": ["./src/assets/images/monika.png"],
+      "alt": "Imagem da",
       "nota": ""
     },
-    "descricao": {
-      "itens": [
-        {
-          "topico": "Origem e Estilo ",
-          "texto": "Música gerada por IA com um clima surreal e cômico. A composição mistura elementos do universo Doki Doki com a Turma da Mônica, criando uma narrativa absurda, cheia de contrastes inesperados. O estilo brinca com a quebra das regras do jogo e exagera referências pop de forma proposital."
-        },
-        {
-          "topico": "Narrativa e Dinâmica ",
-          "texto": "A letra acompanha um eu-lírico tentando se orientar em um mundo completamente distorcido, onde personagens, cenários e regras se misturam sem lógica. O caos constante imprime um ritmo rápido e imprevisível, reforçando a sensação de confusão e surpresa a cada verso."
-        },
-        {
-          "topico": "Personagem Observado ",
-          "texto": "Monika/Mônica é retratada como uma figura instável, exagerada e caótica. Suas ações imprevisíveis geram frustração e estranhamento no eu-lírico, produzindo humor a partir do choque entre expectativa e realidade. A personagem alterna de forma absurda entre ameaça e demonstrações de afeto."
-        },
-        {
-          "topico": "Estrutura e Estética ",
-          "texto": "A música aposta em uma narrativa não linear, com repetições e referências intertextuais usadas como recurso humorístico. A quebra constante de regras narrativas e visuais reforça uma estética de paródia e exagero, típica de experimentações musicais com IA."
-        },
-        {
-          "topico": "Clima e Emoções ",
-          "texto": "O clima é bizarro, caótico e divertido. O ouvinte experimenta surpresa, confusão e riso ao mesmo tempo, como se estivesse preso em um pesadelo absurdo que mistura desenho animado e visual novel."
-        }
-      ]
-    }
+
+    "descricao": [
+      {
+        "topico": "Origem e Estilo",
+        "texto": "Música gerada por IA com um clima surreal e cômico, baseada em crossover entre Doki Doki Literature Club e Turma da Mônica. O estilo brinca com pop energético e eletrônico, exagerando referências pop e misturando universos de forma proposital, criando uma sensação de confusão divertida e absurda."
+      },
+      {
+        "topico": "Narrativa e Dinâmica",
+        "texto": "A letra acompanha um eu-lírico perdido em um mundo distorcido, onde personagens, cenários e regras se misturam sem lógica. A alternância constante entre familiar e inesperado cria ritmo rápido e imprevisível, reforçando a tensão cômica e a surpresa a cada verso."
+      },
+      {
+        "topico": "Personagem Observado",
+        "texto": "Monika/Mônica é apresentada como uma figura instável e caótica, que alterna de forma absurda entre ameaça e afeto. Suas ações exageradas provocam estranhamento e humor, transformando o jogo em uma experiência tanto divertida quanto imprevisível."
+      },
+      {
+        "topico": "Estrutura e Estética",
+        "texto": "A música aposta em narrativa não linear e repetições intencionais, com referências intertextuais usadas como recurso humorístico. A quebra constante de regras visuais e narrativas reforça uma estética de paródia e exagero, típica de composições experimentais geradas por IA."
+      },
+      {
+        "topico": "Clima e Emoções",
+        "texto": "O clima é bizarro, caótico e divertido. O ouvinte experimenta surpresa, confusão e riso simultaneamente, como se estivesse preso em um pesadelo absurdo que mistura desenho animado e visual novel."
+      }
+    ]
   },
 
   "footer": {
-    "creditos": [
-      {
-        "texto": "monica.png -  por",
-        "autor": "sweetievickie",
-        "link": "https://www.deviantart.com/sweetievickie"
-      },
-      {
-        "texto": "Wipicrafty.png, Yandere.png, Favicon-32x32.png – Imagens geradas por IA"
-      },
-      {
-        "texto": "a-turma-da-monika-doki-doki.mp3 – Música gerada por IA",
-        "destaque": "Udio",
-        "extra": "letra criada por mim com organização da IA ChatGPT"
-      }
-    ]
+    "creditos": {
+      "blocos": [
+        {
+          "tipo": "wallpaper",
+          "texto": "Wallpaper por",
+          "autor": {
+            "nome": "JoyfuIIie",
+            "url": "https://www.deviantart.com/joyfuiiie/gallery"
+          },
+          "itens": [
+            { "label": "Mita 1", "url": "./src/assets/images/mita-1.png" },
+            { "label": "Mita 2", "url": "./src/assets/images/mita-2.png" },
+            { "label": "Mita 3", "url": "./src/assets/images/mita-3.png" }
+          ]
+        },
+        {
+          "tipo": "imagens_ia",
+          "texto": "Imagens geradas por IA",
+          "autor": {
+            "nome": "ChatGPT",
+            "url": "https://chatgpt.com/"
+          },
+          "itens": [
+            {
+              "label": "Logo Wipicrafty",
+              "url": "./src/assets/images/logos/Wipicrafty.png"
+            },
+            {
+              "label": "Logo Yandere",
+              "url": "./src/assets/images/logos/"
+            },
+            {
+              "label": "Favicon",
+              "url": "./src/assets/icon/favicon-32x32.png"
+            }
+          ]
+        },
+        {
+          "tipo": "musica",
+          "texto": "Música gerada por IA",
+          "autor": {
+            "nome": "Suno",
+            "url": "https://suno.com/"
+          },
+          "audio": {
+            "label": "▶ Ouvir áudio",
+            "arquivo": "./src/assets/audio/a-turma-da-monika-doki-doki.mp3",
+            "ariaLabel": "Ouvir música gerada por IA"
+          }
+        }
+      ]
+    }
   }
 }

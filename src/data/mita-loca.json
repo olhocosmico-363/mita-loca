@@ -1,5 +1,8 @@
 {
   "header": {
+    "logo": "./src/assets/images/logos/mita.png",
+    "logoAlt": "Logo da personagem Mita",
+
     "titulo": "Quanto Mais Você Me Caça",
     "subtitulo": "Mita Loca - miside",
     "audio": "./src/assets/audio/quanto-mais-voce-me-caca-mita-loca-miside.mp3"
@@ -98,48 +101,80 @@
     "descricao": [
       {
         "topico": "Origem e Estilo",
-        "texto": "Música gerada por IA com um clima caótico, exagerado e divertido. A composição utiliza repetições e frases fragmentadas para reforçar a sensação de um jogo amoroso de “gato e rato”."
+        "texto": "Música gerada por IA com clima caótico, exagerado e divertido, inserida no universo do Dark Pop e Electropop. A composição usa repetições e frases diretas para reforçar a sensação de um jogo amoroso intenso e provocativo."
       },
       {
         "topico": "Narrativa e Dinâmica",
-        "texto": "A letra apresenta um eu-lírico que alterna entre se esconder e se deixar caçar. Esse movimento constante entre fuga e entrega cria uma tensão intensa, porém lúdica e provocadora."
+        "texto": "A letra apresenta um eu-lírico que alterna entre fugir e se deixar capturar. Esse movimento constante cria uma tensão lúdica, onde perseguição e entrega se misturam de forma consciente e sedutora."
       },
       {
         "topico": "Personagem Observado",
-        "texto": "A figura que persegue surge como alguém que observa, caça e provoca, mesmo quando parece ausente. Expressões exageradas reforçam o tom irônico e de zoeira romântica."
+        "texto": "Mita surge como uma figura provocadora e observadora, que caça e instiga sem perder o tom irônico. Sua presença é constante, mesmo quando parece distante, reforçando uma obsessão romântica exagerada."
       },
       {
         "topico": "Estrutura e Estética",
-        "texto": "A repetição não é um erro, mas um recurso estético intencional. Ela cria uma energia caótica e insistente, típica de músicas experimentais e do estilo yandere tratado com humor."
+        "texto": "A repetição é usada como recurso estético intencional, criando sensação de ciclo e insistência. A estética flerta com o experimental e com o arquétipo yandere tratado com leveza e humor."
       },
       {
         "topico": "Clima e Emoções",
-        "texto": "A música mistura obsessão romântica, brincadeira e provocação, onde medo e desejo se confundem em um jogo psicológico intenso e divertido."
+        "texto": "O clima mistura desejo, provocação e obsessão romântica. Medo e atração se confundem em um jogo psicológico intenso, porém divertido, onde a entrega faz parte da dinâmica."
       }
     ]
   },
 
   "footer": {
-    "creditos": [
-      {
-        "tipo": "imagem",
-        "descricao": "Mita-1.png, Mita-2.png, Mita-3.png",
-        "origem": "Wallpaper",
-        "autor": "JoyfuIIie",
-        "link": "https://www.deviantart.com/joyfuiiie/gallery"
-      },
-      {
-        "tipo": "imagem",
-        "descricao": "Wipicrafty.png, Yandere.png, Favicon-32x32.png",
-        "origem": "Imagens geradas por IA"
-      },
-      {
-        "tipo": "musica",
-        "arquivo": "quanto-mais-voce-me-caca-mita-loca-miside.mp3",
-        "ferramenta": "Udio",
-        "descricao": "Música gerada por IA (antes da política de 2025)",
-        "extra": "Letra criada por mim com organização da IA ChatGPT"
-      }
-    ]
+    "creditos": {
+      "blocos": [
+        {
+          "tipo": "wallpaper",
+          "texto": "Wallpaper por",
+          "autor": {
+            "nome": "JoyfuIIie",
+            "url": "https://www.deviantart.com/joyfuiiie/gallery"
+          },
+          "itens": [
+            { "label": "Mita 1", "url": "./src/assets/images/mita-1.png" },
+            { "label": "Mita 2", "url": "./src/assets/images/mita-2.png" },
+            { "label": "Mita 3", "url": "./src/assets/images/mita-3.png" }
+          ]
+        },
+        {
+          "tipo": "imagens_ia",
+          "texto": "Imagens geradas por IA",
+          "autor": {
+            "nome": "ChatGPT",
+            "url": "https://chatgpt.com"
+          },
+          "itens": [
+            {
+              "label": "Logo Wipicrafty",
+              "url": "./src/assets/images/logos/Wipicrafty.png"
+            },
+            {
+              "label": "Logo Yandere",
+              "url": "./src/assets/images/logos/"
+            },
+            {
+              "label": "Favicon",
+              "url": "./src/assets/icon/favicon-32x32.png"
+            }
+          ]
+        },
+        {
+          "tipo": "musica",
+          "texto": "Música gerada por IA",
+          "autor": {
+            "nome": "Udio",
+            "url": "https://www.udio.com/",
+            "observacao": "antes da mudança de política em 29 de outubro de 2025"
+          },
+          "audio": {
+            "label": "▶ Ouvir áudio",
+            "arquivo": "./src/assets/audio/quanto-mais-voce-me-caca-mita-loca-miside.mp3",
+            "ariaLabel": "Ouvir música gerada por IA"
+          }
+        }
+      ]
+    }
   }
 }

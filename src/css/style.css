@@ -140,7 +140,6 @@
 /* ================= LADO DIREITO ================= */
 
 /* === IMAGEM === */
-
 .imagem-box {
   width: 100%;
   text-align: center;
@@ -151,6 +150,10 @@
 }
 
 .imagem-box img.limite-mita {
+  max-height: 69vh;
+}
+
+.imagem-box img.limite-monika {
   max-height: 71.5vh;
 }
 
@@ -190,4 +193,100 @@
   font-size: var(--font-size-sm);
   margin-bottom: 8px;
   line-height: 1.5;
+}
+
+/* ================= FOOTER ================= */
+
+/* FOOTER BASE */
+.site-footer {
+  background: var(--footer-bg);
+  color: var(--footer-text);
+  padding: 3rem 2rem 1.5rem;
+  font-size: 0.95rem;
+  border: 1px solid var(--footer-border);
+}
+
+/* CONTAINER PRINCIPAL */
+.footer-top {
+  max-width: 1200px;
+  margin: 0 auto 2rem;
+  display: flex;
+  gap: 2.5rem;
+  align-items: stretch;
+}
+
+/* CRÉDITOS */
+.creditos {
+  flex: 1;
+}
+
+/* CAIXAS REUTILIZÁVEIS */
+.footer-box {
+  border: 1px solid var(--footer-border);
+  background: var(--footer-panel);
+}
+
+/* AVISO */
+.aviso {
+  align-self: center;
+  width: 320px;
+  padding: 1.2rem;
+}
+
+/* TÍTULOS */
+.site-footer h4 {
+  font-size: 1.1rem;
+  color: var(--color-primary);
+  margin-bottom: 0.5rem;
+}
+
+/* TEXTO */
+.site-footer p {
+  margin-bottom: 0.4rem;
+  color: #cfcfe8;
+}
+
+/* LINKS */
+.site-footer a {
+  color: var(--footer-link);
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+/* LISTAS */
+.lista-imagens {
+  list-style: none;
+  padding: 0;
+  margin-top: 0.4rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+}
+
+.lista-imagens li {
+  white-space: nowrap;
+}
+
+/* ESPAÇAMENTOS */
+.lista-creditos,
+.musica-creditos {
+  margin-bottom: 1.4rem;
+}
+
+/* AVISO TEXTO */
+.aviso-autoral {
+  font-size: 0.9rem;
+  color: #b8b8cc;
+  line-height: 1.5;
+}
+
+/* COPYRIGHT */
+.copyright {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--footer-muted);
+  padding: 1.5rem;
 }
