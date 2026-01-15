@@ -7,7 +7,7 @@
     <!-- SEO -->
     <meta name="description" content="Artigo completo sobre a Wipicrafty musica yandere">
 
-    <link rel="icon" type="image/png" sizes="32x32" href="./src/assets/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/assets/images/icon/favicon-32x32.png">
 
     <title id="yandere-misica">Yandere Music Wiki</title>
 
@@ -54,7 +54,7 @@
     <aside class="sidebar-menu" aria-label="Menu lateral">
 
         <header class="sidebar-header">
-            <h2 id="js-titulo">Tipos de músicas</h2>
+            <h3 id="js-titulo">Tipos de músicas</h3>
             <button class="close-sidebar" aria-label="Fechar menu">✖</button>
         </header>
 
@@ -64,10 +64,10 @@
             <details>
                 <summary>musicais</summary>
                 <ul>
-                    <li><a href="">mita loca</a></li>
-                    <li><a href="">monica</a></li>
-                    <li><a href="">ayano</a></li>
-                    <li><a href="">Saiko no sutoka</a></li>
+                    <li><a href="?p=mita-loca">Mita Loca</a></li>
+                    <li><a href="?p=monika">Monika</a></li>
+                    <li><a href="?p=ayano">Ayano</a></li>
+                    <li><a href="?p=saiko-chan">Saiko no Sutoka</a></li>
                 </ul>
             </details>
             <details>
@@ -83,17 +83,18 @@
     </aside>
 
     <!-- ================= CONTEÚDO PRINCIPAL ================= -->
+    <!-- maim padrao -->
+    <!-- main das informações da mita loca(MiSide) -->
+    <!-- main das informações da Monika(Doki Doki Literature Club!) -->
+    <!-- main das informações da Ayano Aishi(Yandere Simulator) -->
+    <!-- HEADER DO CONTEÚDO -->
     <main class="main-content">
-        <!-- maim padrao -->
-        <!-- main das informações da mita loca(MiSide) -->
-        <!-- main das informações da Monika(Doki Doki Literature Club!) -->
-        <!-- main das informações da Ayano Aishi(Yandere Simulator) -->
-        <!-- HEADER DO CONTEÚDO -->
 
         <header class="musica-header">
 
             <div class="musica-topo">
-                <img src="./src/assets/images/logos/yandere.png" alt="logo da yandere" class="logo-yandere">
+                <img src="./src/assets/images/logos/yandere.png" alt="logo da yandere" class="logo-yandere"
+                    id="logo-musica">
 
                 <div class="titulo">
                     <h1 id="musica-titulo">titulo da musica</h1>
@@ -113,12 +114,27 @@
         <!-- CONTEÚDO PRINCIPAL -->
         <section class="musica-layout">
 
-            <!-- COLUNA ESQUERDA: LETRA -->
-            <article class="letra">
-                <h3>Letra</h3>
-                <div id="letra-conteudo"></div>
-                <!-- versos entram via JS -->
-            </article>
+            <aside class="coluna-esquerda">
+                <article class="genero">
+                    <h3>Gênero</h3>
+
+                    <div class="genero-bloco">
+                        <h4>Gênero principal</h4>
+                        <ul id="genero-principal" class="genero-tags"></ul>
+                    </div>
+
+                    <div class="genero-bloco">
+                        <h4>Subgêneros</h4>
+                        <ul id="subgeneros" class="genero-tags"></ul>
+                    </div>
+                </article>
+
+                <article class="letra">
+                    <h3>Letra</h3>
+                    <div id="letra-conteudo"></div>
+                </article>
+
+            </aside>
 
             <!-- COLUNA DIREITA -->
             <aside class="lado-direito">
@@ -126,13 +142,13 @@
                 <!-- IMAGEM / ANIMAÇÃO -->
                 <figure class="imagem-box">
                     <img id="imagem-frame">
-                    <figcaption id="imagem-nota"></figcaption>
+                    <figcaption id="imagem-nota">caregando autor</figcaption>
                 </figure>
 
                 <!-- DESCRIÇÃO -->
                 <article class="descricao">
-                    <h3 id="descricao-titulo"></h3>
-                    <div id="descricao-conteudo"></div>
+                    <h3>Descrição da Música</h3>
+                    <div id="descricao-conteudo">caregando...</div>
                 </article>
 
             </aside>
@@ -141,23 +157,38 @@
     </main>
 
     <!-- ================= FOOTER ================= -->
-    <footer class="footer">
-        <!-- rodape padrao -->
-        <!-- rodape da mita loca(MiSide) -->
-        <!-- rodape da mita Monika(Doki Doki Literature Club!) -->
-        <!-- rodape da mita Ayano Aishi(Yandere Simulator) -->
+    <footer class="site-footer" aria-label="Rodapé do site">
 
+        <div class="footer-top">
 
-        <ul id="footer-creditos">
-            <!-- créditos entram via JS -->
-        </ul>
+            <!-- CRÉDITOS -->
+            <section class="creditos" aria-labelledby="titulo-creditos">
+                <header>
+                    <h4>Créditos</h4>
+                </header>
+                <div id="creditos-conteudo"></div>
+            </section>
 
-        <p>Todos os personagens pertencem aos seus criadores originais.</p>
-        <p>Site sem fins comerciais.</p>
-        <p>© 2026 Olho Cósmico</p>
+            <!-- AVISO AUTORAL -->
+            <aside class="aviso footer-box" aria-labelledby="titulo-aviso">
+                <header>
+                    <h4 id="titulo-aviso">Aviso Autoral</h4>
+                </header>
+
+                <p class="aviso-autoral">
+                    Todos os personagens pertencem aos seus criadores originais.<br>
+                    Site sem fins comerciais ou monetização.
+                </p>
+            </aside>
+
+        </div>
+
+        <!-- COPYRIGHT -->
+        <p class="copyright footer-box">
+            © <span id="ano"></span> <strong>Olho Cósmico</strong>
+        </p>
 
     </footer>
-
     <script type="module" src="./src/js/index.js"></script>
 
 </body>

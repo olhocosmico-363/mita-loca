@@ -1,6 +1,6 @@
 // ================= IMPORTAÇÕES =================
 import { getData } from "./services/dataService.js";
-import { getPersonagem, aplicarAjusteImagem } from "./utils/params.js";
+import { getPersonagem, aplicarAjusteImagem } from "./utils/character.js";
 
 import { renderFooter, renderHeader } from "./modules/layout.js";
 import { renderLadoEsquerdo } from "./modules/ladoEsquerdo.js";

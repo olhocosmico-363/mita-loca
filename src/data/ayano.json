@@ -25,10 +25,12 @@
         "titulo": "[Verso 1]",
         "paragrafos": [
           [
-            "Eu sou uma yandere, olhar vazio, sem emoção",
-            "Até que um dia na escola tudo mudou então",
+            "Eu sou uma yandere",
+            "Olhar vazio, nenhuma emoção",
+            "Até que um dia na escola tudo mudou",
             "Taro Yamada, meu primeiro amor",
-            "Uniforme limpo, faca na mochila, isso não é estranho, é só minha vida",
+            "Uniforme limpo, faca na mochila",
+            "Isso não é estranho, é só minha vida",
             "Passo pelo corredor, todo mundo ok",
             "Três pessoas sumiram… mas tá tudo bem"
           ]
@@ -58,7 +60,7 @@
             "Se isso não é amor verdadeiro",
             "Então me explica o que aconteceu",
             "Tutorial de como ser normal",
-            "Rir sozinho no corredor da escola",
+            "Rir sozinha no corredor da escola",
             "Achar tudo isso bem natural",
             "Dizer que é normal… mesmo não sendo agora"
           ]
@@ -98,9 +100,9 @@
             "Passo um: fingir sentir algo",
             "Passo dois: controle emocional",
             "Erro crítico, sistema travado",
-            "Rir sozinho no corredor da escola",
-            "Tudo parece isso tão banal",
-            "Ser stalker, privacidade",
+            "Rir sozinha no corredor da escola",
+            "Tudo isso parece tão banal",
+            "Ser stalker, invadir privacidade",
             "Dizer que é amor… totalmente normal"
           ]
         ]
@@ -110,7 +112,7 @@
         "paragrafos": [
           [
             "Estou triste, estou feliz",
-            "Troca rápida, nem sei mais",
+            "Troca rápido, nem sei mais",
             "Todo mundo faz isso aqui",
             "Ou só eu que sou assim demais?",
             "Eu tentei copiar, juro que tentei",
@@ -153,7 +155,11 @@
 
   "ladoDireito": {
     "imagem": {
-      "frames": [],
+      "frames": [
+        "./src/assets/images/personagens/ayano/ayano-1.png",
+        "./src/assets/images/personagens/ayano/ayano-2.png",
+        "./src/assets/images/personagens/ayano/ayano-3.png"
+      ],
       "alt": "",
       "nota": ""
     },
@@ -188,13 +194,22 @@
           "tipo": "wallpaper",
           "texto": "Wallpaper por",
           "autor": {
-            "nome": "JoyfuIIie",
-            "url": "https://www.deviantart.com/joyfuiiie/gallery"
+            "nome": "ChatGPT",
+            "url": "https://chatgpt.com/"
           },
           "itens": [
-            { "label": "Mita 1", "url": "./src/assets/images/mita-1.png" },
-            { "label": "Mita 2", "url": "./src/assets/images/mita-2.png" },
-            { "label": "Mita 3", "url": "./src/assets/images/mita-3.png" }
+            {
+              "label": "ayano 1",
+              "url": "./src/assets/images/personagens/ayano/ayano-1.png"
+            },
+            {
+              "label": "ayano 2",
+              "url": "./src/assets/images/personagens/ayano/ayano-2.png"
+            },
+            {
+              "label": "ayano 3",
+              "url": "./src/assets/images/personagens/ayano/ayano-3.png"
+            }
           ]
         },
         {
@@ -212,11 +227,11 @@
             {
               "label": "Logo Yandere",
               "url": "./src/assets/images/logos/Ayano.jpeg",
-              "observacao": "Logo Yandere gerado pelo Suno"
+              "observacao": "Suno"
             },
             {
               "label": "Favicon",
-              "url": "./src/assets/icon/favicon-32x32.png"
+              "url": "./src/assets/images/icon/favicon-32x32.png"
             }
           ]
         },

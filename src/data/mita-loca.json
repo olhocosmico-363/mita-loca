@@ -91,9 +91,9 @@
   "ladoDireito": {
     "imagem": {
       "frames": [
-        "./src/assets/images/mita-1.png",
-        "./src/assets/images/mita-2.png",
-        "./src/assets/images/mita-3.png"
+        "./src/assets/images/personagens/mita/mita-1.png",
+        "./src/assets/images/personagens/mita/mita-2.png",
+        "./src/assets/images/personagens/mita/mita-3.png"
       ],
       "alt": "Imagem da Mita",
       "nota": "arte do autor @JoyfuIIie."
@@ -133,9 +133,9 @@
             "url": "https://www.deviantart.com/joyfuiiie/gallery"
           },
           "itens": [
-            { "label": "Mita 1", "url": "./src/assets/images/mita-1.png" },
-            { "label": "Mita 2", "url": "./src/assets/images/mita-2.png" },
-            { "label": "Mita 3", "url": "./src/assets/images/mita-3.png" }
+            { "label": "Mita 1", "url": "./src/assets/images/personagens/mita/mita-1.png" },
+            { "label": "Mita 2", "url": "./src/assets/images/personagens/mita/mita-2.png" },
+            { "label": "Mita 3", "url": "./src/assets/images/personagens/mita/mita-3.png" }
           ]
         },
         {
@@ -152,11 +152,11 @@
             },
             {
               "label": "Logo Yandere",
-              "url": "./src/assets/images/logos/"
+              "url": "./src/assets/images/logos/mita.png"
             },
             {
               "label": "Favicon",
-              "url": "./src/assets/icon/favicon-32x32.png"
+              "url": "./src/assets/images/icon/favicon-32x32.png"
             }
           ]
         },

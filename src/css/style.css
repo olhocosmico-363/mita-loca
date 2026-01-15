@@ -151,10 +151,19 @@
 
 .imagem-box img.limite-mita {
   max-height: 69vh;
+  object-fit: cover;
+  object-position: top center;
 }
 
 .imagem-box img.limite-monika {
-  max-height: 71.5vh;
+  max-height: 70.8vh;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.imagem-box img.limite-ayano {
+  max-height: vh;
+  max-width: vw;
 }
 
 .imagem-box img {

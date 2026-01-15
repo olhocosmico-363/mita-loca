@@ -7,9 +7,16 @@ export function aplicarAjusteImagem(personagem) {
   const img = document.querySelector(".imagem-box img");
   if (!img) return;
 
-  img.classList.remove("limite-mita");
+  img.classList.remove(
+    "limite-mita",
+    "limite-monika"
+  );
 
   if (personagem === "mita-loca") {
     img.classList.add("limite-mita");
+  }
+
+  if (personagem === "monika") {
+    img.classList.add("limite-monika");
   }
 }

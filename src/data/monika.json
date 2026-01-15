@@ -1,6 +1,6 @@
 {
   "header": {
-    "logo": "./src/assets/images/logos/monica.png",
+    "logo": "./src/assets/images/logos/monika.png",
     "logoAlt": "Logo da personagem ",
 
     "titulo": "A Turma da Monika",
@@ -89,9 +89,13 @@
 
   "ladoDireito": {
     "imagem": {
-      "frames": ["./src/assets/images/monika.png"],
-      "alt": "Imagem da",
-      "nota": ""
+      "frames": [
+        "./src/assets/images/personagens/monika/monika-1.png",
+        "./src/assets/images/personagens/monika/monika-2.png",
+        "./src/assets/images/personagens/monika/monika-3.png"
+      ],
+      "alt": "Monika segurando um coelho azul de pelúcia",
+      "nota": "Personagem de Doki Doki Literature Club (Team Salvato). Arte gerada por IA."
     },
 
     "descricao": [
@@ -129,9 +133,9 @@
             "url": "https://www.deviantart.com/joyfuiiie/gallery"
           },
           "itens": [
-            { "label": "Mita 1", "url": "./src/assets/images/mita-1.png" },
-            { "label": "Mita 2", "url": "./src/assets/images/mita-2.png" },
-            { "label": "Mita 3", "url": "./src/assets/images/mita-3.png" }
+            { "label": "monika 1", "url": "./src/assets/images/personagens/monika/monika-1.png" },
+            { "label": "monika 2", "url": "./src/assets/images/personagens/monika/monika-2.png" },
+            { "label": "monika 3", "url": "./src/assets/images/personagens/monika/monika-3.png" }
           ]
         },
         {
@@ -148,11 +152,12 @@
             },
             {
               "label": "Logo Yandere",
-              "url": "./src/assets/images/logos/"
+              "url": "./src/assets/images/logos/monika.png"
+
             },
             {
               "label": "Favicon",
-              "url": "./src/assets/icon/favicon-32x32.png"
+              "url": "./src/assets/images/icon/favicon-32x32.png"
             }
           ]
         },

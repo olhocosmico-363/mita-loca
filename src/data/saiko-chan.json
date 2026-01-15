@@ -142,7 +142,7 @@
 
   "ladoDireito": {
     "imagem": {
-      "frames": [],
+      "frames": [ "https://tenor.com/pt-BR/view/saiko-no-sutoka-gif-23051737" ],
       "alt": "",
       "nota": ""
     },
@@ -181,9 +181,9 @@
             "url": "https://www.deviantart.com/joyfuiiie/gallery"
           },
           "itens": [
-            { "label": "Mita 1", "url": "./src/assets/images/mita-1.png" },
-            { "label": "Mita 2", "url": "./src/assets/images/mita-2.png" },
-            { "label": "Mita 3", "url": "./src/assets/images/mita-3.png" }
+            { "label": "monika 1", "url": "./src/assets/images/personagens/monika/monika-1.png" },
+            { "label": "monika 2", "url": "./src/assets/images/personagens/monika/monika-2.png" },
+            { "label": "monika 3", "url": "./src/assets/images/personagens/monika/monika-3.png" }
           ]
         },
         {
@@ -200,11 +200,11 @@
             },
             {
               "label": "Logo Yandere",
-              "url": "./src/assets/images/logos/saiko-chan.jpeg"
+              "url": "./src/assets/images/logos/monika.png"
             },
             {
               "label": "Favicon",
-              "url": "./src/assets/icon/favicon-32x32.png"
+              "url": "./src/assets/images/icon/favicon-32x32.png"
             }
           ]
         },
@@ -212,13 +212,12 @@
           "tipo": "musica",
           "texto": "Música gerada por IA",
           "autor": {
-            "nome": "Udio",
-            "url": "https://www.udio.com/home",
-            "observacao": "antes da mudança de política em 29 de outubro de 2025"
+            "nome": "Suno",
+            "url": "https://suno.com/"
           },
           "audio": {
             "label": "▶ Ouvir áudio",
-            "arquivo": "./src/assets/audio/te-persigo-como-uma-stalker-saiko-chan-yandere.mp3",
+            "arquivo": "./src/assets/audio/a-turma-da-monika-doki-doki.mp3",
             "ariaLabel": "Ouvir música gerada por IA"
           }
         }
