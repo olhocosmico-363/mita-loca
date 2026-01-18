@@ -1,11 +1,11 @@
 {
   "header": {
-    "logo": "./src/assets/images/logos/saiko-chan.jpeg",
+    "logo": "./assets/images/logos/saiko-chan.png",
     "logoAlt": "Logo da musuca stalker",
 
     "titulo": "Não Fuja de Mim",
     "subtitulo": "Saiko-chan",
-    "audio": "./src/assets/audio/te-persigo-como-uma-stalker-saiko-chan-yandere.mp3"
+    "audio": "./assets/audio/te-persigo-como-uma-stalker-saiko-chan-yandere.mp3"
   },
 
   "ladoEsquerdo": {
@@ -29,6 +29,7 @@
             "Ouvi passos… deve ser paranoia",
             "Luz piscando, faca na mão",
             "Bom dia, eu moro na sua mansão",
+            "",
             "Você corre, eu ando devagar",
             "Porque medo dá mais sabor pra caçar",
             "GPS mental, sei onde você tá",
@@ -55,6 +56,7 @@
             "Se escondendo, aumenta o valor",
             "Corre mais, tenta escapar",
             "Eu vou rir quando te encontrar",
+            "",
             "Sou stalker, isso é normal",
             "Tá no manual da yandere oficial",
             "Se você gritar, não leva a mal",
@@ -70,6 +72,7 @@
             "Você rezando, eu sorrindo",
             "Ouço a respiração atrás da parede",
             "Calma… eu só quero falar com você",
+            "",
             "Apaga a luz, pensa que some",
             "Mas eu vejo no escuro, fome é fome",
             "Esconde no armário, debaixo da cama",
@@ -96,6 +99,7 @@
             "Te seguindo bem de mansinho",
             "Se tropeçar, deixa eu ajudar",
             "Com a faca pronta pra te amar",
+            "",
             "Sou stalker, isso é jogo casual",
             "Você correndo, eu acho sensacional",
             "Se tentar fugir até o final",
@@ -133,6 +137,7 @@
             "Mas eu ainda sei seu nome",
             "Se isso não é amor de verdade",
             "Então por que você corre com tanta vontade?",
+            "",
             "Se eu te amo."
           ]
         ]
@@ -142,7 +147,11 @@
 
   "ladoDireito": {
     "imagem": {
-      "frames": [ "https://tenor.com/pt-BR/view/saiko-no-sutoka-gif-23051737" ],
+      "frames": [
+        "./assets/images/personagens/saiko/saiko-1.png",
+        "./assets/images/personagens/saiko/saiko-2.png",
+        "./assets/images/personagens/saiko/saiko-3.png"
+      ],
       "alt": "",
       "nota": ""
     },
@@ -181,9 +190,18 @@
             "url": "https://www.deviantart.com/joyfuiiie/gallery"
           },
           "itens": [
-            { "label": "monika 1", "url": "./src/assets/images/personagens/monika/monika-1.png" },
-            { "label": "monika 2", "url": "./src/assets/images/personagens/monika/monika-2.png" },
-            { "label": "monika 3", "url": "./src/assets/images/personagens/monika/monika-3.png" }
+            {
+              "label": "monika 1",
+              "url": "./assets/images/personagens/monika/monika-1.png"
+            },
+            {
+              "label": "monika 2",
+              "url": "./assets/images/personagens/monika/monika-2.png"
+            },
+            {
+              "label": "monika 3",
+              "url": "./assets/images/personagens/monika/monika-3.png"
+            }
           ]
         },
         {
@@ -196,15 +214,15 @@
           "itens": [
             {
               "label": "Logo Wipicrafty",
-              "url": "./src/assets/images/logos/Wipicrafty.png"
+              "url": "./assets/images/logos/Wipicrafty.png"
             },
             {
               "label": "Logo Yandere",
-              "url": "./src/assets/images/logos/monika.png"
+              "url": "./assets/images/logos/monika.png"
             },
             {
               "label": "Favicon",
-              "url": "./src/assets/images/icon/favicon-32x32.png"
+              "url": "./assets/images/icon/favicon-32x32.png"
             }
           ]
         },
@@ -217,7 +235,7 @@
           },
           "audio": {
             "label": "▶ Ouvir áudio",
-            "arquivo": "./src/assets/audio/a-turma-da-monika-doki-doki.mp3",
+            "arquivo": "./assets/audio/a-turma-da-monika-doki-doki.mp3",
             "ariaLabel": "Ouvir música gerada por IA"
           }
         }

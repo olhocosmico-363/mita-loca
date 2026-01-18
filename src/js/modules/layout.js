@@ -51,9 +51,7 @@ export function renderFooter(data) {
         const a = document.createElement("a");
 
         a.href = item.url;
-        a.textContent = item.observacao
-          ? `${item.label} (${item.observacao})`
-          : item.label;
+        a.textContent = item.label; // só o label agora
 
         li.appendChild(a);
         ul.appendChild(li);

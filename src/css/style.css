@@ -150,9 +150,9 @@
 }
 
 .imagem-box img.limite-mita {
-  max-height: 69vh;
-  object-fit: cover;
-  object-position: top center;
+  max-height: 94.2vh;
+  max-width: 100%;
+  object-fit: contain;
 }
 
 .imagem-box img.limite-monika {

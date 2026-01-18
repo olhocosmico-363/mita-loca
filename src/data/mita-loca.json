@@ -1,11 +1,11 @@
 {
   "header": {
-    "logo": "./src/assets/images/logos/mita.png",
+    "logo": "./assets/images/logos/mita.png",
     "logoAlt": "Logo da personagem Mita",
 
     "titulo": "Quanto Mais Você Me Caça",
     "subtitulo": "Mita Loca - miside",
-    "audio": "./src/assets/audio/quanto-mais-voce-me-caca-mita-loca-miside.mp3"
+    "audio": "./assets/audio/quanto-mais-voce-me-caca-mita-loca-miside.mp3"
   },
 
   "ladoEsquerdo": {
@@ -19,12 +19,15 @@
         "titulo": "[Verso 1]",
         "paragrafos": [
           [
-            "Olha nos meus olhos, conte-me as tuas loucuras",
+            "Olha nos meus olhos, me conta tuas loucuras",
             "Fala que eu nunca escapo, que você tá na altura",
+            "",
             "E quando eu corro, você vem pra me pegar",
-            "Mita, você tá fora da linha, mas vou me entregar",
+            "Mita, cê tá fora da linha, mas vou me entregar",
             "Diz que sou refém, sempre no seu despertar",
-            "É essa energia que me faz te buscar"
+            "É essa energia que me faz te buscar",
+            "",
+            ""
           ]
         ]
       },
@@ -34,8 +37,10 @@
           [
             "Mita pra mim, o que eu gosto, ah",
             "Quanto mais você me caça, mais eu me escondo,",
-            "Menina psicótica, que dedo não pede",
-            "E é assim que eu te imploro, só pra sentir"
+            "Menina psicótica, que finge não pedir",
+            "E é assim que eu te imploro, só pra sentir",
+            "",
+            ""
           ]
         ]
       },
@@ -43,12 +48,15 @@
         "titulo": "[Verso 2]",
         "paragrafos": [
           [
-            "Me observe à distância, tudo tá bagunçado",
-            "Cada vez que eu me escondo, sinto o seu chamado",
+            "Me observa à distância, tudo tá bagunçado",
+            "Cada vez que me escondo, sinto teu chamado",
+            "",
             "Esse jogo é intenso, eu não vou negar",
             "Reclamo da prisão, mas não consigo largar",
-            "Sinto o seu olhar, eu estou quase perdido",
-            "E mesmo assim, meu encontro não é proibido"
+            "Sinto teu olhar, eu tô quase perdido",
+            "E mesmo assim, me encontro no proibido",
+            "",
+            ""
           ]
         ]
       },
@@ -58,8 +66,10 @@
           [
             "Mita pra mim, o que eu gosto, ah",
             "Quanto mais você me caça, mais eu me escondo,",
-            "Menina psicótica, que dedo não pede",
-            "E é assim que eu te imploro, só pra sentir"
+            "Menina psicótica, que finge não pedir",
+            "E é assim que eu te imploro, só pra sentir",
+            "",
+            ""
           ]
         ]
       },
@@ -67,10 +77,12 @@
         "titulo": "[Ponte]",
         "paragrafos": [
           [
-            "Mita, eu peguei, na rede da paixão",
+            "Mita, me pegou, na rede da paixão",
             "Tô flutuando, perdido na contramão",
             "Mas no fundo eu sei, que eu vou mergulhar",
-            "Acabando em você, ah, não posso evitar"
+            "Acabando em você, ah, não posso evitar",
+            "",
+            ""
           ]
         ]
       },
@@ -78,10 +90,13 @@
         "titulo": "[Refrão Final]",
         "paragrafos": [
           [
+            "",
             "Mita pra mim, o que eu gosto, ah",
             "Quanto mais você me caça, mais eu me escondo,",
-            "Menina psicótica, que dedo não pede",
-            "E é assim que eu te imploro, só pra sentir"
+            "Menina psicótica, que finge não pedir",
+            "E é assim que eu te imploro, só pra sentir",
+            "",
+            ""
           ]
         ]
       }
@@ -91,9 +106,9 @@
   "ladoDireito": {
     "imagem": {
       "frames": [
-        "./src/assets/images/personagens/mita/mita-1.png",
-        "./src/assets/images/personagens/mita/mita-2.png",
-        "./src/assets/images/personagens/mita/mita-3.png"
+        "./assets/images/personagens/mita/mita-1.png",
+        "./assets/images/personagens/mita/mita-2.png",
+        "./assets/images/personagens/mita/mita-3.png"
       ],
       "alt": "Imagem da Mita",
       "nota": "arte do autor @JoyfuIIie."
@@ -133,9 +148,18 @@
             "url": "https://www.deviantart.com/joyfuiiie/gallery"
           },
           "itens": [
-            { "label": "Mita 1", "url": "./src/assets/images/personagens/mita/mita-1.png" },
-            { "label": "Mita 2", "url": "./src/assets/images/personagens/mita/mita-2.png" },
-            { "label": "Mita 3", "url": "./src/assets/images/personagens/mita/mita-3.png" }
+            {
+              "label": "Mita 1",
+              "url": "./assets/images/personagens/mita/mita-1.png"
+            },
+            {
+              "label": "Mita 2",
+              "url": "./assets/images/personagens/mita/mita-2.png"
+            },
+            {
+              "label": "Mita 3",
+              "url": "./assets/images/personagens/mita/mita-3.png"
+            }
           ]
         },
         {
@@ -148,15 +172,15 @@
           "itens": [
             {
               "label": "Logo Wipicrafty",
-              "url": "./src/assets/images/logos/Wipicrafty.png"
+              "url": "./assets/images/logos/Wipicrafty.png"
             },
             {
               "label": "Logo Yandere",
-              "url": "./src/assets/images/logos/mita.png"
+              "url": "./assets/images/logos/mita.png"
             },
             {
               "label": "Favicon",
-              "url": "./src/assets/images/icon/favicon-32x32.png"
+              "url": "./assets/images/icon/favicon-32x32.png"
             }
           ]
         },
@@ -170,7 +194,7 @@
           },
           "audio": {
             "label": "▶ Ouvir áudio",
-            "arquivo": "./src/assets/audio/quanto-mais-voce-me-caca-mita-loca-miside.mp3",
+            "arquivo": "./assets/audio/quanto-mais-voce-me-caca-mita-loca-miside.mp3",
             "ariaLabel": "Ouvir música gerada por IA"
           }
         }

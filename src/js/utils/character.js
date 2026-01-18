@@ -16,7 +16,7 @@ export function aplicarAjusteImagem(personagem) {
     img.classList.add("limite-mita");
   }
 
-  if (personagem === "monika") {
+  if (personagem === "monika-ddlc") {
     img.classList.add("limite-monika");
   }
 }

@@ -1,11 +1,11 @@
 {
   "header": {
-    "logo": "./src/assets/images/logos/monika.png",
+    "logo": "./assets/images/logos/monika.png",
     "logoAlt": "Logo da personagem ",
 
     "titulo": "A Turma da Monika",
     "subtitulo": "Doki Doki",
-    "audio": "./src/assets/audio/a-turma-da-monika-doki-doki.mp3"
+    "audio": "./assets/audio/a-turma-da-monika-doki-doki.mp3"
   },
 
   "ladoEsquerdo": {
@@ -90,9 +90,9 @@
   "ladoDireito": {
     "imagem": {
       "frames": [
-        "./src/assets/images/personagens/monika/monika-1.png",
-        "./src/assets/images/personagens/monika/monika-2.png",
-        "./src/assets/images/personagens/monika/monika-3.png"
+        "./assets/images/personagens/monika/monika-1.png",
+        "./assets/images/personagens/monika/monika-2.png",
+        "./assets/images/personagens/monika/monika-3.png"
       ],
       "alt": "Monika segurando um coelho azul de pelúcia",
       "nota": "Personagem de Doki Doki Literature Club (Team Salvato). Arte gerada por IA."
@@ -133,9 +133,9 @@
             "url": "https://www.deviantart.com/joyfuiiie/gallery"
           },
           "itens": [
-            { "label": "monika 1", "url": "./src/assets/images/personagens/monika/monika-1.png" },
-            { "label": "monika 2", "url": "./src/assets/images/personagens/monika/monika-2.png" },
-            { "label": "monika 3", "url": "./src/assets/images/personagens/monika/monika-3.png" }
+            { "label": "monika 1", "url": "./assets/images/personagens/monika/monika-1.png" },
+            { "label": "monika 2", "url": "./assets/images/personagens/monika/monika-2.png" },
+            { "label": "monika 3", "url": "./assets/images/personagens/monika/monika-3.png" }
           ]
         },
         {
@@ -148,16 +148,16 @@
           "itens": [
             {
               "label": "Logo Wipicrafty",
-              "url": "./src/assets/images/logos/Wipicrafty.png"
+              "url": "./assets/images/logos/Wipicrafty.png"
             },
             {
               "label": "Logo Yandere",
-              "url": "./src/assets/images/logos/monika.png"
+              "url": "./assets/images/logos/monika.png"
 
             },
             {
               "label": "Favicon",
-              "url": "./src/assets/images/icon/favicon-32x32.png"
+              "url": "./assets/images/icon/favicon-32x32.png"
             }
           ]
         },
@@ -170,7 +170,7 @@
           },
           "audio": {
             "label": "▶ Ouvir áudio",
-            "arquivo": "./src/assets/audio/a-turma-da-monika-doki-doki.mp3",
+            "arquivo": "./assets/audio/a-turma-da-monika-doki-doki.mp3",
             "ariaLabel": "Ouvir música gerada por IA"
           }
         }

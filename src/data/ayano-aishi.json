@@ -1,11 +1,11 @@
 {
   "header": {
-    "logo": "./src/assets/images/logos/Ayano.jpeg",
+    "logo": "./assets/images/logos/Ayano.png",
     "logoAlt": "Logo da personagem Mita",
 
     "titulo": "Tutorial de Como Ser Normal",
     "subtitulo": "Ayano - Yandere",
-    "audio": "./src/assets/audio/tutorial-de-como-ser-normal-ayano-yandere.mp3"
+    "audio": "./assets/audio/tutorial-de-como-ser-normal-ayano-yandere.mp3"
   },
 
   "ladoEsquerdo": {
@@ -156,9 +156,9 @@
   "ladoDireito": {
     "imagem": {
       "frames": [
-        "./src/assets/images/personagens/ayano/ayano-1.png",
-        "./src/assets/images/personagens/ayano/ayano-2.png",
-        "./src/assets/images/personagens/ayano/ayano-3.png"
+        "./assets/images/personagens/ayano/ayano-1.png",
+        "./assets/images/personagens/ayano/ayano-2.png",
+        "./assets/images/personagens/ayano/ayano-3.png"
       ],
       "alt": "",
       "nota": ""
@@ -200,15 +200,15 @@
           "itens": [
             {
               "label": "ayano 1",
-              "url": "./src/assets/images/personagens/ayano/ayano-1.png"
+              "url": "./assets/images/personagens/ayano/ayano-1.png"
             },
             {
               "label": "ayano 2",
-              "url": "./src/assets/images/personagens/ayano/ayano-2.png"
+              "url": "./assets/images/personagens/ayano/ayano-2.png"
             },
             {
               "label": "ayano 3",
-              "url": "./src/assets/images/personagens/ayano/ayano-3.png"
+              "url": "./assets/images/personagens/ayano/ayano-3.png"
             }
           ]
         },
@@ -222,16 +222,15 @@
           "itens": [
             {
               "label": "Logo Wipicrafty",
-              "url": "./src/assets/images/logos/Wipicrafty.png"
+              "url": "./assets/images/logos/Wipicrafty.png"
             },
             {
               "label": "Logo Yandere",
-              "url": "./src/assets/images/logos/Ayano.jpeg",
-              "observacao": "Suno"
+              "url": "./assets/images/logos/Ayano.jpeg"
             },
             {
               "label": "Favicon",
-              "url": "./src/assets/images/icon/favicon-32x32.png"
+              "url": "./assets/images/icon/favicon-32x32.png"
             }
           ]
         },
@@ -244,7 +243,7 @@
           },
           "audio": {
             "label": "▶ Ouvir áudio",
-            "arquivo": "./src/assets/audio/tutorial-de-como-ser-normal-ayano-yandere.mp3",
+            "arquivo": "./assets/audio/tutorial-de-como-ser-normal-ayano-yandere.mp3",
             "ariaLabel": "Ouvir música gerada por IA"
           }
         }
