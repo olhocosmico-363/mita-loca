@@ -4,15 +4,15 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- SEO -->
-    <meta name="description" content="Artigo completo sobre o site Wipicrafty musica yanderes">
-
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/icon/favicon-32x32.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Página inicial do site Yandere Music Wiki" />
 
     <title>Yandere Music Wiki</title>
 
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/icon/favicon-32x32.png">
+
     <link rel="stylesheet" href="./src/css/global.css">
-    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/index.css">
     <link rel="stylesheet" href="./src/css/responsivo.css">
 </head>
 
@@ -21,7 +21,7 @@
     <!-- ================= HEADER ================= -->
     <header class="header">
         <div class="header-left">
-            <button class="menu" aria-label="Abrir menu">☰</button>
+            <button type="button" class="menu" aria-label="Abrir menu">☰</button>
 
             <a href="index.html" aria-label="Voltar para a página inicial" class="logo">
                 <img src="./assets/images/logos/Wipicrafty.png" alt="logotipo com mascote do site" />
@@ -36,7 +36,7 @@
         </div>
 
         <div class="header-account">
-            <button>👤 entrar...</button>
+            <button type="button">👤 entrar...</button>
         </div>
     </header>
 
@@ -60,7 +60,7 @@
 
         <ul>
             <li><a href="">voltar</a></li>
-            <li><a href="">configuraçoes</a></li>
+            <li><a href="">Configurações</a></li>
             <details>
                 <summary>musicais</summary>
                 <ul>
@@ -75,7 +75,7 @@
                 <ul>
                     <li><a href="https://store.steampowered.com/app/2527500/MiSide/?l=brazilian">midade</a></li>
                     <li><a href="https://store.steampowered.com/agecheck/app/698780/?l=portuguese">doki doki</a></li>
-                    <li><a href="https://yanderesimulator.com/"></a>yandere simuleiton</a></li>
+                    <li><a href="https://yanderesimulator.com/">yandere simuleiton</a></li>
                     <li><a href="https://store.steampowered.com/app/1546860/Saiko_no_sutoka/">Saiko no sutoka</a></li>
                 </ul>
             </details>
@@ -83,13 +83,7 @@
     </aside>
 
     <!-- ================= CONTEÚDO PRINCIPAL ================= -->
-    <!-- maim padrao -->
-    <!-- main das informações da mita loca(MiSide) -->
-    <!-- main das informações da Monika(Doki Doki Literature Club!) -->
-    <!-- main das informações da Ayano Aishi(Yandere Simulator) -->
-    <!-- HEADER DO CONTEÚDO -->
     <main class="main-content">
-
         <header class="musica-header">
 
             <div class="musica-topo">
@@ -108,10 +102,9 @@
                     Seu navegador não suporta áudio.
                 </audio>
             </div>
-
         </header>
 
-        <!-- CONTEÚDO PRINCIPAL -->
+        <!-- CONTEÚDO PRINCIPAL(esquerda) -->
         <section class="musica-layout">
 
             <aside class="coluna-esquerda">
@@ -139,13 +132,11 @@
             <!-- COLUNA DIREITA -->
             <aside class="lado-direito">
 
-                <!-- IMAGEM / ANIMAÇÃO -->
                 <figure class="imagem-box">
                     <img id="imagem-frame">
                     <figcaption id="imagem-nota">caregando autor</figcaption>
                 </figure>
 
-                <!-- DESCRIÇÃO -->
                 <article class="descricao">
                     <h3>Descrição da Música</h3>
                     <div id="descricao-conteudo">caregando...</div>
@@ -161,15 +152,14 @@
 
         <div class="footer-top">
 
-            <!-- CRÉDITOS -->
             <section class="creditos" aria-labelledby="titulo-creditos">
                 <header>
                     <h4>Créditos</h4>
                 </header>
+
                 <div id="creditos-conteudo"></div>
             </section>
 
-            <!-- AVISO AUTORAL -->
             <aside class="aviso footer-box" aria-labelledby="titulo-aviso">
                 <header>
                     <h4 id="titulo-aviso">Aviso Autoral</h4>
@@ -183,7 +173,6 @@
 
         </div>
 
-        <!-- COPYRIGHT -->
         <p class="copyright footer-box">
             © <span id="ano"></span> <strong>Olho Cósmico</strong>
         </p>

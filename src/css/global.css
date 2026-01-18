@@ -87,10 +87,11 @@ body {
 }
 
 .logo {
-  display: flex;           
-  align-items: center;     
-  text-decoration: none;   
-  color: inherit;          
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
 }
 
 .logo img {
@@ -189,7 +190,8 @@ body {
   margin-bottom: 1rem;
 }
 
-.sidebar-header h2 {
+.sidebar-header h3 {
+  color: var(--color-primary);
   font-size: 1.1rem;
 }
 
