@@ -1,5 +1,4 @@
 /* ================= PÁGINA YANDERES ================= */
-
 main {
   max-width: var(--max-width-content);
   margin: 2rem auto;
@@ -18,7 +17,7 @@ main h1 {
 /* CONTAINER DOS CARDS */
 .cards-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 🔹 4 lado a lado */
+  grid-template-columns: repeat(3, 1fr); /* 🔹 3 por linha */
   gap: 24px;
 }
 
@@ -33,7 +32,7 @@ main h1 {
 .card img {
   width: 100%;
   margin-bottom: 12px;
-  max-height: 42vh;
+  max-height: 59vh;
   object-fit: cover;
   object-position: top center;
 }
@@ -61,6 +60,8 @@ main h1 {
 .card li {
   margin-bottom: 4px;
 }
+
+/* ================= RESPONSIVO ================= */
 
 .site-footer {
   margin-top: 3rem;
