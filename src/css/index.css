@@ -292,10 +292,59 @@
   line-height: 1.5;
 }
 
-/* COPYRIGHT */
-.copyright {
+.site-footer .copyright {
   text-align: center;
   font-size: 0.85rem;
   color: var(--footer-muted);
-  padding: 1.5rem;
+  padding: 1.5rem 0;
+}
+
+.site-footer .copyright a {
+  color: var(--footer-muted);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.site-footer .copyright a:hover {
+  color: var(--color-primary);
+}
+
+/* ================= RESPONSIVO ================= */
+@media (max-width: 900px) {
+  .musica-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .letra,
+  .lado-direito {
+    min-width: 100%;
+  }
+
+  /* HEADER DO MAIN */
+  .musica-header {
+    align-items: center;
+    text-align: center;
+  }
+
+  .musica-topo {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .musica-logo {
+    width: 64px;
+    height: 64px;
+  }
+
+  .audio-box {
+    width: 100%;
+  }
+
+  .footer-top {
+    flex-direction: column;
+  }
+
+  .aviso {
+    width: 100%;
+  }
 }

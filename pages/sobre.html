@@ -7,13 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Página sobre o site Yandere Music Wiki" />
 
-    <title>sobre Music Wiki</title>
+    <title>Sobre Yandere Music Wiki</title>
 
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/icon/favicon-32x32.png">
 
     <link rel="stylesheet" href="../src/css/global.css">
     <link rel="stylesheet" href="../src/css/sobre.css">
-    <link rel="stylesheet" href="../src/css/responsivo.css">
 </head>
 
 <body>
@@ -21,7 +20,7 @@
         <div class="header-left">
             <button type="button" class="menu" aria-label="Abrir menu">☰</button>
 
-            <a href="index.html" aria-label="Voltar para a página inicial" class="logo">
+            <a href="../index.html" aria-label="Voltar para a página inicial" class="logo">
                 <img src="../assets/images/logos/Wipicrafty.png" alt="logotipo com mascote do site" />
                 <strong>Wipicrafty</strong>
             </a>
@@ -38,6 +37,15 @@
         </div>
     </header>
 
+    <nav class="top-nav" aria-label="Navegação principal">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./yanderes.html">Yanderes</a></li>
+            <li><a href="./jogos.html">Jogos</a></li>
+            <li><a href="./sobre.html">Sobre</a></li>
+        </ul>
+    </nav>
+
     <aside class="sidebar-menu" aria-label="Menu lateral">
 
         <header class="sidebar-header">
@@ -46,45 +54,64 @@
         </header>
 
         <ul>
-            <li><a href="">voltar</a></li>
-            <li><a href="">Configurações</a></li>
+            <li><a href="../index.html">voltar</a></li>
+            <li><a href="#">Configurações</a></li>
+            <li><a href="./sobre.html">sobre</a></li>
         </ul>
     </aside>
+
 
     <!-- ================= CONTEÚDO PRINCIPAL ================= -->
     <main class="main-content">
         <section class="sobre-site">
             <h1>Sobre o Yandere Music Wiki</h1>
-            <p><!-- Aqui você pode escrever sobre o site --></p>
+            <p>
+                O Yandere Music Wiki faz parte da Cosmo Wipicrafty, uma enciclopédia experimental dedicada ao caos
+                criativo: músicas geradas por IA, personagens yandere, jogos, horror cósmico, comédia e cultura da
+                internet.
+                Este site foca em personagens yandere e músicas exageradas e caóticas, reunindo letras, análises,
+                imagens e informações detalhadas de cada música e personagem.
+                Todo o conteúdo é gratuito, educativo e sem fins comerciais.
+            </p>
         </section>
 
         <section class="missao">
             <h2>Missão</h2>
-            <p><!-- Aqui você pode escrever a missão do site --></p>
+            <p>
+                Nossa missão é oferecer um espaço único e acessível para fãs de diferentes nichos da cultura pop,
+                reunindo informações detalhadas sobre músicas, gêneros e personagens, incentivando a criatividade e a
+                diversão no processo de descoberta.
+            </p>
         </section>
 
         <section class="autor">
             <h2>Autor</h2>
-            <p><!-- Informações sobre o autor --></p>
+            <p>
+                O site foi desenvolvido por Olho Cósmico, fã de músicas de animes e jogos, com o objetivo de organizar
+                projetos experimentais e conteúdos diversos de forma clara e acessível para outros fãs.
+                O projeto valoriza o caráter criativo e experimental do conteúdo, oferecendo uma experiência diferente a
+                cada visita.
+            </p>
         </section>
 
         <section class="creditos">
             <h2>Créditos</h2>
-            <p><!-- Créditos das imagens, músicas e conteúdos --></p>
+            <p>
+                Todas as imagens, músicas e personagens usadas neste site pertencem aos seus respectivos criadores.
+                O site não possui fins comerciais.
+                Agradecimentos especiais aos autores dos jogos, músicas e personagens referenciados.
+                Este projeto faz parte da Cosmo Wiki ou Cosmo Wipicrafty, uma enciclopédia experimental de conteúdo
+                educativo e criativo.
+            </p>
         </section>
     </main>
 
     <!-- ================= FOOTER ================= -->
-    <footer class="site-footer">
-        <p>© <span id="ano"></span> Olho Cósmico</p>
+    <footer class="site-footer" aria-label="Rodapé do site">
+        © <span id="ano"></span> <strong><a href="https://github.com/olhocosmico-363">Olho Cósmico</a></strong>
     </footer>
 
-    <!-- ================= JS ================= -->
-    <script>
-        document.getElementById("ano").textContent = new Date().getFullYear();
-    </script>
-
-    <script src="../src/js/sobre.js" type="module"></script>
+    <script type="module" src="../src/js/pages.js"></script>
 </body>
 
 </html>

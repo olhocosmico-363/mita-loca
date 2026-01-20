@@ -1,11 +1,12 @@
 // ================= IMPORTAÇÕES =================
 import { getData } from "./services/dataService.js";
-import { getPersonagem, aplicarAjusteImagem } from "./utils/character.js";
+import { getPersonagem, aplicarAjusteFrame } from "./utils/character.js";
 
 import { renderFooter, renderHeader } from "./modules/layout.js";
 import { renderLadoEsquerdo } from "./modules/ladoEsquerdo.js";
 import { renderLadoDireito } from "./modules/ladoDireito.js";
 import { initMenuLateral } from "./modules/menuLateral.js";
+import { initAno } from "./modules/ano.js";
 
 // ================= INICIALIZAÇÃO =================
 async function init() {
@@ -17,8 +18,9 @@ async function init() {
   renderLadoEsquerdo(data);
   renderLadoDireito(data);
 
-  aplicarAjusteImagem(personagem);
+  aplicarAjusteFrame(personagem);
   initMenuLateral();
+  initAno();
 }
 
 init();

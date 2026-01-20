@@ -72,8 +72,4 @@ export function renderFooter(data) {
 
     container.appendChild(div);
   });
-
-  // 🔹 Ano automático
-  const anoEl = document.getElementById("ano");
-  if (anoEl) anoEl.textContent = new Date().getFullYear();
 }

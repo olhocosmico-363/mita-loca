@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Página sobre o site Yandere Music Wiki" />
+
+    <title>Personagens Yandere</title>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/icon/favicon-32x32.png">
+
+    <link rel="stylesheet" href="../src/css/global.css">
+    <link rel="stylesheet" href="../src/css/yanderes.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-left">
+            <button type="button" class="menu" aria-label="Abrir menu">☰</button>
+
+            <a href="../index.html" aria-label="Voltar para a página inicial" class="logo">
+                <img src="../assets/images/logos/Wipicrafty.png" alt="logotipo com mascote do site" />
+                <strong>Wipicrafty</strong>
+            </a>
+        </div>
+
+        <div class="header-search">
+            <label for="search" class="sr-only">Pesquisar</label>
+            <input id="search" type="search" placeholder="Pesquisar música ou yandere" />
+            <button>🔍</button>
+        </div>
+
+        <div class="header-account">
+            <button type="button">👤 entrar...</button>
+        </div>
+    </header>
+
+    <nav class="top-nav" aria-label="Navegação principal">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./yanderes.html">Yanderes</a></li>
+            <li><a href="./jogos.html">Jogos</a></li>
+            <li><a href="./sobre.html">Sobre</a></li>
+        </ul>
+    </nav>
+
+    <aside class="sidebar-menu" aria-label="Menu lateral">
+
+        <header class="sidebar-header">
+            <h3 id="js-titulo">Tipos de músicas</h3>
+            <button class="close-sidebar" aria-label="Fechar menu">✖</button>
+        </header>
+
+        <ul>
+            <li><a href="../index.html">voltar</a></li>
+            <li><a href="#">Configurações</a></li>
+            <li><a href="./yanderes.html">Yandere</a></li>
+        </ul>
+    </aside>
+
+    <main class="main-content">
+        <h1>Personagens Yandere</h1>
+
+        <section class="cards-container">
+
+            <!-- Mita -->
+            <article class="card">
+                <img src="../assets/images/personagens/mita/mita-1.png" alt="Mita de MiSide">
+                <h2>Mita (MiSide)</h2>
+                <p>Personagem central e antagonista de MiSide, com aparência fofa, mas personalidade instável e
+                    manipuladora.</p>
+                <ul>
+                    <li>Obcecada por companhia e poder</li>
+                    <li>Vários estados e formas: normal, fantasmagórica, chibi</li>
+                    <li>Manipula e engana o jogador</li>
+                </ul>
+            </article>
+
+            <!-- Monika -->
+            <article class="card">
+                <figure class="imagem-box">
+                    <img src="../assets/images/personagens/monika/monika-1.png"
+                        alt="Monika de Doki Doki Literature Club">
+                </figure>
+                <h2>Monika (DDLC)</h2>
+                <p>Presidente do Clube de Literatura em DDLC. Descobre que é personagem de um jogo e manipula todo o
+                    roteiro.</p>
+                <ul>
+                    <li>Quebra a quarta parede</li>
+                    <li>Deleta personagens rivais para ficar com o jogador</li>
+                    <li>Famosa pelo meme "Just Monika"</li>
+                </ul>
+            </article>
+
+
+            <!-- Ayano -->
+            <article class="card">
+                <figure class="imagem-box">
+                    <img src="../assets/images/personagens/ayano/ayano-1.png" alt="Ayano de Yandere Simulator">
+                </figure>
+
+                <h2>Ayano (Yandere Simulator)</h2>
+                <p>Protagonista do jogo, obcecada pelo seu Senpai e capaz de eliminar qualquer rival para
+                    conquistá-lo.
+                </p>
+                <ul>
+                    <li>Yandere clássica: obsessiva e manipuladora</li>
+                    <li>Sofre da "Aishi Condition", que limita emoções antes de conhecer Senpai</li>
+                    <li>Reputação afeta interações com NPCs</li>
+                </ul>
+            </article>
+
+            <!-- Saiko -->
+            <article class="card">
+                <figure class="imagem-box">
+                    <img src="../assets/images/personagens/saiko/saiko-1.png" alt="Saiko de Saiko no Sutoka" class="">
+                </figure>
+
+                <h2>Saiko (Saiko no Sutoka)</h2>
+                <p>Antagonista do jogo de horror, perigosa e obsessiva com o protagonista Akira.</p>
+                <ul>
+                    <li>Comportamento imprevisível: alterna entre yandere e violenta</li>
+                    <li>Persegue e ataca o jogador na escola</li>
+                    <li>História de fundo traumática que explica sua obsessão</li>
+                </ul>
+            </article>
+
+        </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="site-footer" aria-label="Rodapé do site">
+        © <span id="ano"></span> <strong><a href="https://github.com/olhocosmico-363">Olho Cósmico</a></strong>
+    </footer>
+    
+    <script type="module" src="../src/js/pages.js"></script>
+</body>
+
+</html>

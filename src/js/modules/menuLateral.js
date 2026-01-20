@@ -3,13 +3,14 @@ export function initMenuLateral() {
   const closeBtn = document.querySelector(".close-sidebar");
   const sidebar = document.querySelector(".sidebar-menu");
 
-  if (openBtn && closeBtn && sidebar) {
-    openBtn.addEventListener("click", () => {
-      sidebar.classList.toggle("active");
-    });
+  if (!openBtn || !closeBtn || !sidebar) return;
 
-    closeBtn.addEventListener("click", () => {
-      sidebar.classList.remove("active");
-    });
-  }
+  openBtn.addEventListener("click", () => {
+    sidebar.classList.toggle("active");
+  });
+
+  closeBtn.addEventListener("click", () => {
+    sidebar.classList.remove("active");
+  });
 }
+
