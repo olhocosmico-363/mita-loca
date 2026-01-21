@@ -155,15 +155,12 @@
   object-fit: contain;
 }
 
-.imagem-box img.limite-monika {
+.imagem-box img.limite-monika,
+.imagem-box img.limite-ayano,
+.imagem-box img.limite-saiko {
   max-height: 70.8vh;
   object-fit: cover;
   object-position: top center;
-}
-
-.imagem-box img.limite-ayano {
-  max-height: vh;
-  max-width: vw;
 }
 
 .imagem-box img {

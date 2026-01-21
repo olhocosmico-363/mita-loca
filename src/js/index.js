@@ -2,9 +2,9 @@
 import { getData } from "./services/dataService.js";
 import { getPersonagem, aplicarAjusteFrame } from "./utils/character.js";
 
-import { renderFooter, renderHeader } from "./modules/layout.js";
-import { renderLadoEsquerdo } from "./modules/ladoEsquerdo.js";
-import { renderLadoDireito } from "./modules/ladoDireito.js";
+import { renderFooter, renderHeader } from "./modules/musica/layout.js";
+import { renderLadoEsquerdo } from "./modules/musica/ladoEsquerdo.js";
+import { renderLadoDireito } from "./modules/musica/ladoDireito.js";
 import { initMenuLateral } from "./modules/menuLateral.js";
 import { initAno } from "./modules/ano.js";
 

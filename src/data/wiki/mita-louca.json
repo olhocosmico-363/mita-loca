@@ -1,0 +1,76 @@
+{
+  "header": {
+    "gif": {
+      "embedId": "17730278542162923701",
+      "aspectRatio": 1.76596,
+      "width": "100%",
+      "caption": "Miside Mita GIF"
+    },
+    "titulo": "MiSide",
+    "introducao": [
+      "MiSide é um jogo indie de aventura com elementos de terror psicológico, desenvolvido pela equipe russa AIHASTO. O jogo explora a relação entre realidade e simulação, colocando o jogador dentro de um mundo virtual que começa a se tornar cada vez mais instável.",
+      "O título ganhou destaque por sua narrativa envolvente, atmosfera inquietante e pela personagem Mita, cuja aparência fofa contrasta com comportamentos perturbadores ao longo da história."
+    ]
+  },
+
+  "sumario": [
+    "Jogabilidade",
+    "Enredo",
+    "Personagens",
+    "Finais",
+    "Lançamento e recepção",
+    "Referências"
+  ],
+
+  "conteudo": {
+    "jogabilidade": [
+      "MiSide combina exploração em primeira pessoa com resolução de quebra-cabeças e escolhas narrativas. O jogador explora ambientes fechados, interage com objetos e descobre segredos que revelam mais sobre o mundo virtual em que está preso.",
+      "O jogo não depende apenas de sustos repentinos, focando principalmente em terror psicológico, usando trilha sonora, ambientação e mudanças sutis no cenário para criar tensão."
+    ],
+
+    "enredo": [
+      "A história acompanha um protagonista que acaba preso dentro de um jogo que antes existia apenas em seu celular. Conforme a narrativa avança, o mundo virtual começa a se misturar com a realidade, levantando dúvidas sobre consciência, identidade e controle.",
+      "A relação entre o jogador e a personagem Mita se torna o ponto central da trama, revelando comportamentos obsessivos e manipulação emocional."
+    ],
+
+    "personagens": [
+      {
+        "nome": "Mita",
+        "descricao": "Mita é a personagem mais marcante de MiSide. Inicialmente apresentada como doce e amigável, sua personalidade muda progressivamente, revelando traços obsessivos, instáveis e perigosos. Ao longo do jogo, diferentes versões e estados de Mita aparecem, simbolizando a fragmentação do mundo virtual e de sua própria identidade."
+      }
+    ],
+
+    "finais": [
+      "MiSide possui múltiplos finais, que variam de acordo com as escolhas feitas pelo jogador durante a campanha. Esses desfechos apresentam interpretações diferentes sobre o destino do protagonista e o verdadeiro papel de Mita.",
+      "A existência de finais alternativos incentiva a rejogabilidade e a exploração de decisões diferentes."
+    ],
+
+    "lancamento": [
+      "Uma versão demo de MiSide foi disponibilizada em agosto de 2023, enquanto o lançamento oficial ocorreu em 11 de dezembro de 2024, para PC, através da plataforma Steam.",
+      "O jogo recebeu avaliações amplamente positivas, sendo elogiado pela narrativa, atmosfera e abordagem psicológica, tornando-se popular entre fãs de jogos de horror narrativo."
+    ],
+
+    "referencias": [
+      {
+        "label": "Wikipédia — MiSide",
+        "url": "https://pt.wikipedia.org/wiki/MiSide"
+      },
+      {
+        "label": "Steam — Página oficial de MiSide",
+        "url": "https://store.steampowered.com/app/2527500/MiSide/"
+      },
+      {
+        "label": "MiSide — Site oficial",
+        "url": "https://miside.click/pt/"
+      },
+      {
+        "label": "MiSide — Informações adicionais",
+        "url": "https://playmiside.com/pt"
+      },
+      {
+        "label": "MiSide — Página de descrição do jogo",
+        "url": "https://miside.games/"
+      }
+    ]
+  }
+}
